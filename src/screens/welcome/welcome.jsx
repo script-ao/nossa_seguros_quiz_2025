@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import imageCharacters from "../../assets/images/characters/nossa_characters.png";
-import nossaLogo from "../../assets/svgs/logos/nossa_logo.svg";
-import logoGame from "../../assets/svgs/logos/logo_game.svg";
+import { images } from "../../assets";
+import { vectorImages } from "../../assets";
 
 import { Footer, Button } from "../../components";
 
@@ -14,16 +13,16 @@ function Welcome() {
         <section className="we_container">
           <div className="we_content">
             <div className="we_highlight">
-              <h1>bem-vindo ao</h1>
+              <span>bem-vindo ao</span>
             </div>
             <div className="we_app_logo">
-              <img src={logoGame} alt="#" />
+              <img src={vectorImages.logos.logo_01} alt="#" />
             </div>
             <div className="nossa_logo">
-              <img src={nossaLogo} alt="#" />
+              <img src={vectorImages.logos.logo_02} alt="#" />
             </div>
             <div className="image_characters">
-              <img src={imageCharacters} alt="#" />
+              <img src={images.characters.maleAndFemale} alt="#" />
               <Link to="/intro">
                 <Button
                   text="Quero Jogar"
