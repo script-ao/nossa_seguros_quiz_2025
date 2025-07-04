@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { Welcome, Intro, Gender } from "../../screens";
+import { Welcome, Intro, Gender, Trivia } from "../../screens";
 
 function AppRouter() {
   return (
@@ -9,6 +9,7 @@ function AppRouter() {
         <Route path="/" element={<Welcome />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/start" element={<Gender />} />
+        <Route path="/trivia" element={<Trivia />} />
       </Routes>
     </BrowserRouter>
   );

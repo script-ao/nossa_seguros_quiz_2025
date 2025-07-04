@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Footer } from "../../components";
 
 import { images } from "../../assets";
-
 import { vectorImages } from "../../assets";
 
 function Gender() {
@@ -27,26 +27,29 @@ function Gender() {
             </div>
             <div className="st_description">
               <span>
-                Escolha o seu<br/>
+                Escolha o seu
+                <br />
                 personagem
               </span>
             </div>
             <div className="st_btns_container">
               <div className="st_btn_container-female">
-                <button>
-                  <img src={images.characters.charFemaleBk} alt="" />
-                </button>
+                <Link to="/trivia">
+                  <button>
+                    <img src={images.characters.charFemaleBk} alt="" />
+                  </button>
+                </Link>
                 <span>Carla</span>
               </div>
               <div className="st_description">
-              <span>
-                Ou
-              </span>
-            </div>
+                <span>Ou</span>
+              </div>
               <div className="st_btn_container-male">
-                <button>
-                  <img src={images.characters.charMaleBk} alt="" />
-                </button>
+                <Link to="/trivia">
+                  <button>
+                    <img src={images.characters.charMaleBk} alt="" />
+                  </button>
+                </Link>
                 <span>João</span>
               </div>
             </div>

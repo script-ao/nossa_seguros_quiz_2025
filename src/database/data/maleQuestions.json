@@ -1,0 +1,15 @@
+{
+    "character": {
+        "name": "João",
+        "age": "27",
+        "questions": {
+            "situation": {
+                "_id": 1,
+                "question": "",
+                "answers": {
+                    
+                }
+            }
+        }
+    }
+}
