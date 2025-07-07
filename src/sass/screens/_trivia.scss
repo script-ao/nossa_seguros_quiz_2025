@@ -51,3 +51,9 @@
     text-transform: uppercase;
     color: $main-color;
 }
+
+.tr_answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

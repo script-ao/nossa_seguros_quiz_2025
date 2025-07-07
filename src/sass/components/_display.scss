@@ -2,15 +2,17 @@
 
 .di_wrapper {
     width: 79.0rem;
-    background-color: red;
-
-    border-radius: 26.4rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+    position: relative;
+}
+
+.di_container {
     overflow: hidden;
+    border-radius: 26.4rem;
 }
 
 .di_wrapper video {

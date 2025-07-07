@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Footer, Button, Header, Display } from "../../components";
-import { vectorImages } from "../../assets";
+import { Footer, Button, Header, Display, AnswerButton } from "../../components";
 
 function Trivia() {
   return (
@@ -18,27 +17,14 @@ function Trivia() {
             </div>
             <div className="tr_description">
               <span>
-                Descubra como a Nossa
-                <br />
-                Seguros protege os
-                <br />
-                seus dias com escolhas inteligentes.
-              </span>
-              <span>
-                Prepare-se para testar os seus
-                <br />
-                conhecimentos e garantir
-                <br />
-                um futuro mais seguro.
+                O João está a expandir o seu negócio. Que seguro o ajuda a
+                proteger o seu escritório contra incêndios e roubos?
               </span>
             </div>
-            <div>
-              <Link to="/start">
-                <Button
-                  text="Começar Jogo"
-                  className="btn btn_color-secondary"
-                />
-              </Link>
+            <div className="tr_answers-container">
+              <AnswerButton text="First Answer"/>
+              <AnswerButton text="First Answer"/>
+              <AnswerButton text="First Answer"/>
             </div>
           </div>
         </section>
