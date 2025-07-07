@@ -1,0 +1,83 @@
+@use "../abstracts" as *;
+
+.st_wrapper {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.st_container {
+  flex: 1;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../assets/svgs/backgrounds/background_03.svg");
+  background-position: cover;
+}
+
+.st_content {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.st_highlight {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Aux Pro";
+  font-weight: bold;
+  color: $main-color;
+  text-align: center;
+}
+
+.st_description {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  font-size: 4.2rem;
+  font-family: "Aux Pro";
+  font-weight: bold;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+.st_btns_container {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.st_btn_container-female,
+.st_btn_container-male {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  button {
+    // background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #99CA3C;
+    border: none;
+    border-radius: 30rem;
+  }
+
+  span {
+    font-size: 5rem;
+    font-family: "Aux Pro";
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: $main-color;
+  }
+}

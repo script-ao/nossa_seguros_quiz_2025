@@ -1,0 +1,53 @@
+@use '../abstracts' as *;
+
+
+.it_wrapper {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.it_container {
+    flex: 1;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../assets/svgs/backgrounds/background_01.svg');
+    background-position: cover;
+}
+
+.it_content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.it_highlight {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Aux Pro';
+    font-weight: bold;
+    color: $main-color;
+}
+
+.it_description {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    font-size: 4.2rem;
+    font-family: 'Aux Pro';
+    font-weight: bold;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: $main-color;
+}
