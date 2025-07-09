@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Footer, Button } from "../../components";
+import { Button } from "../../components";
 import { vectorImages } from "../../assets/svgs";
 
 function Intro() {
   return (
     <React.Fragment>
-      <div className="it_wrapper">
-        <section className="it_container">
+      <section className="it_wrapper">
+        <div className="it_container">
           <div className="it_content">
             <div className="it_highlight">
               <span>Antes de começarmos</span>
@@ -44,9 +44,8 @@ function Intro() {
               </Link>
             </div>
           </div>
-        </section>
-        <Footer />
-      </div>
+        </div>
+      </section>
     </React.Fragment>
   );
 }

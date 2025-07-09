@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { images } from "../../assets";
 import { vectorImages } from "../../assets";
 
-import { Footer, Button } from "../../components";
+import { Button } from "../../components";
 
 function Welcome() {
   return (
@@ -22,7 +22,7 @@ function Welcome() {
               <img src={vectorImages.logos.logo_02} alt="#" />
             </div>
             <div className="image_characters">
-              <img src={images.characters.maleAndFemale} alt="#" />
+              <img src={images.characters.random.maleAndFemale} alt="#" />
               <Link to="/intro">
                 <Button
                   text="Quero Jogar"
@@ -32,7 +32,6 @@ function Welcome() {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     </React.Fragment>
   );

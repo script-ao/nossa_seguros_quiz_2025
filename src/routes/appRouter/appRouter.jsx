@@ -10,17 +10,21 @@ import {
   Register,
 } from "../../screens";
 
+import { AppLayout } from "../../layouts";
+
 function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index path="/" element={<Welcome />} />
-        <Route path="/intro" element={<Intro />} />
-        <Route path="/start" element={<Gender />} />
-        <Route path="/trivia" element={<Trivia />} />
-        <Route path="/win" element={<Lose />} />
-        <Route path="/lose" element={<Win />} />
-        <Route path="/register" element={<Register />} />
+        <Route element={<AppLayout />}>
+          <Route index path="/" element={<Welcome />} />
+          <Route path="/intro" element={<Intro />} />
+          <Route path="/start" element={<Gender />} />
+          <Route path="/trivia" element={<Trivia />} />
+          <Route path="/win" element={<Win />} />
+          <Route path="/lose" element={<Lose />} />
+          <Route path="/register" element={<Register />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
