@@ -6,6 +6,8 @@ import brand from './logos/brand.svg';
 import challenge from './logos/challenge.svg';
 import lose from './logos/lose.svg';
 
+import win from './logos/win.svg'
+
 
 const vectorImages = {
     backgrounds: {
@@ -16,7 +18,8 @@ const vectorImages = {
     logos: {
         brand,
         challenge,
-        lose
+        lose,
+        win
     }
 }
 
