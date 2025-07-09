@@ -29,7 +29,7 @@ function Lose() {
             </div>
           </div>
           <div className="lo_btn-container">
-            <Button text="Example" className="btn" />
+            <Button text="Tentar Novamente" className="btn btn_color-main " />
           </div>
         </main>
       </section>
