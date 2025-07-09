@@ -18,10 +18,10 @@ function Gender() {
               </span>
             </div>
             <div className="ge_app_logo">
-              <img src={vectorImages.logos.logo_01} alt="#" />
+              <img src={vectorImages.logos.challenge} alt="#" />
             </div>
             <div className="nossa_logo">
-              <img src={vectorImages.logos.logo_02} alt="#" />
+              <img src={vectorImages.logos.brand} alt="#" />
             </div>
             <div className="ge_description">
               <span>
