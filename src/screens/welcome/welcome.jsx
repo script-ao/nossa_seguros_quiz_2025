@@ -16,10 +16,10 @@ function Welcome() {
               <span>bem-vindo ao</span>
             </div>
             <div className="we_app_logo">
-              <img src={vectorImages.logos.logo_01} alt="#" />
+              <img src={vectorImages.logos.challenge} alt="#" />
             </div>
             <div className="nossa_logo">
-              <img src={vectorImages.logos.logo_02} alt="#" />
+              <img src={vectorImages.logos.brand} alt="#" />
             </div>
             <div className="image_characters">
               <img src={images.characters.random.maleAndFemale} alt="#" />
