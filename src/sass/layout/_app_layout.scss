@@ -1,0 +1,12 @@
+.app_layout-wrapper {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    main {
+        display: inherit;
+        flex: 1;
+    }
+}
+

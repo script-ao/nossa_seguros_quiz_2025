@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import { Footer, Button, Header, Display, AnswerButton } from "../../components";
+import { Header, Display, AnswerButton } from "../../components";
 
 function Trivia() {
   return (
@@ -28,7 +27,6 @@ function Trivia() {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     </React.Fragment>
   );

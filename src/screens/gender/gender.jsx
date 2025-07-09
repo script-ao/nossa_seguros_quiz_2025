@@ -1,53 +1,51 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Footer } from "../../components";
-
 import { images } from "../../assets";
 import { vectorImages } from "../../assets";
 
 function Gender() {
   return (
     <React.Fragment>
-      <div className="st_wrapper">
-        <section className="st_container">
-          <div className="st_content">
-            <div className="st_highlight">
+      <div className="ge_wrapper">
+        <section className="ge_container">
+          <div className="ge_content">
+            <div className="ge_highlight">
               <span>
                 Cada jornada é diferente.
                 <br />
                 Mas todas merecem protecção.
               </span>
             </div>
-            <div className="st_app_logo">
+            <div className="ge_app_logo">
               <img src={vectorImages.logos.logo_01} alt="#" />
             </div>
             <div className="nossa_logo">
               <img src={vectorImages.logos.logo_02} alt="#" />
             </div>
-            <div className="st_description">
+            <div className="ge_description">
               <span>
                 Escolha o seu
                 <br />
                 personagem
               </span>
             </div>
-            <div className="st_btns_container">
-              <div className="st_btn_container-female">
+            <div className="ge_btns_container">
+              <div className="ge_btn_container-female">
                 <Link to="/trivia">
                   <button>
-                    <img src={images.characters.charFemaleBk} alt="" />
+                    <img src={images.characters.female.charFemaleBk} alt="" />
                   </button>
                 </Link>
                 <span>Carla</span>
               </div>
-              <div className="st_description">
+              <div className="ge_description">
                 <span>Ou</span>
               </div>
-              <div className="st_btn_container-male">
+              <div className="ge_btn_container-male">
                 <Link to="/trivia">
                   <button>
-                    <img src={images.characters.charMaleBk} alt="" />
+                    <img src={images.characters.male.charMaleBk} alt="" />
                   </button>
                 </Link>
                 <span>João</span>
@@ -55,7 +53,6 @@ function Gender() {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     </React.Fragment>
   );
