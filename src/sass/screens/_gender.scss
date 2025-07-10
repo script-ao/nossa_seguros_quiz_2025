@@ -26,6 +26,10 @@
   justify-content: end;
   flex-direction: column;
   gap: 7rem;
+
+  @include respond-to("tablet") {
+    gap: 3.5rem;
+  }
 }
 
 .ge_highlight {
@@ -36,6 +40,10 @@
   font-weight: bold;
   color: $main-color;
   text-align: center;
+
+  @include respond-to("tablet") {
+      font-size: 1.5rem;
+  }
 }
 
 .ge_description {
@@ -50,12 +58,21 @@
   text-align: center;
   text-transform: uppercase;
   color: $main-color;
+
+  @include respond-to("tablet") {
+    font-size: 1.5rem;
+        
+  }
 }
 
 .ge_btns_container {
   display: flex;
   align-items: center;
   gap: 4rem;
+
+  @include respond-to("tablet"){
+    padding: 0 6rem;
+  }
 }
 
 .ge_btn_container-female,
@@ -69,6 +86,15 @@
     // background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #99CA3C;
     border: none;
     border-radius: 30rem;
+
+    @include respond-to("tablet") {
+      //width: 95%;
+
+      > img {
+        max-width: 100%;
+      }
+    
+    }
   }
 
   span {
@@ -79,5 +105,21 @@
     text-transform: uppercase;
 
     color: $main-color;
+
+    @include respond-to("tablet") {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
   }
+}
+
+.ge_app_logo{
+
+  @include respond-to("tablet") {
+    width: 75%;
+
+      > img {
+        max-width: 100%;
+      }
+    }
 }

@@ -27,6 +27,9 @@
     justify-content: end;
     flex-direction: column;
     gap: 7rem;
+    @include respond-to("tablet") {
+        gap: 3.5rem;
+    }
 }
 
 .it_highlight {
@@ -36,6 +39,9 @@
     font-family: 'Aux Pro';
     font-weight: bold;
     color: $main-color;
+    @include respond-to("tablet") {
+        font-size: 1.5rem;
+    }
 }
 
 .it_description {
@@ -50,4 +56,19 @@
     text-align: center;
     text-transform: uppercase;
     color: $main-color;
+    @include respond-to("tablet") {
+        font-size: 1.5rem;
+        gap: 1.5rem;
+      }
+}
+.it_app_logo{
+    @include respond-to("tablet") {
+    
+      width: 75%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  
 }

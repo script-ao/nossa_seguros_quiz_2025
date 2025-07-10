@@ -14,12 +14,21 @@
 
     display: flex;
     justify-content: center;
+    align-items: center;
 
     background-image: url('../assets/svgs/backgrounds/background_03.svg');
     background-position: cover;
+
+    @include respond-to("tablet") {
+    
+    background-position: top;
+    background-size: contain;
+  }
 }
 
 .we_content {
+    
+
     display: flex;
     align-items: center;
     justify-content: end;
@@ -27,15 +36,24 @@
 
     & > :nth-child(2) {
         margin-top: 9rem;
+        @include respond-to("tablet") {
+            margin-top: 2rem;
+        }
     }
 
     & > :nth-child(3) {
         margin-top: 7.6rem;
+        @include respond-to("tablet") {
+            margin-top: 2.6rem;
+        }
     }
 
     & > :nth-child(4) {
         margin-top: 6.7rem;
         position: relative;
+        @include respond-to("tablet") {
+            margin-top: 1.7rem;
+        }
     }
 }
 
@@ -46,6 +64,41 @@
     font-family: 'Aux Pro';
     font-weight: bold;
     color: $main-color;
+    @include respond-to("tablet") {
+        font-size: 1.5rem;
+    }
 }
 
 
+.we_app_logo{
+    @include respond-to("tablet") {
+        width: 75%;
+
+      > img {
+        max-width: 100%;
+      }
+    
+  }
+}
+
+.nossa_logo{
+   @include respond-to("tablet") {
+        width: 75%;
+
+      > img {
+        max-width: 100%;
+      }
+    
+  } 
+}
+
+.image_characters{
+     @include respond-to("tablet") {
+        width: 75%;
+
+      > img {
+        max-width: 100%;
+      }
+    
+  } 
+}

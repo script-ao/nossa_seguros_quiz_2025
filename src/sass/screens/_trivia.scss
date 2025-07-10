@@ -27,6 +27,10 @@
     justify-content: end;
     flex-direction: column;
     gap: 7rem;
+
+    @include respond-to("tablet") {
+    gap: 3.5rem;
+  }
 }
 
 .tr_highlight {
@@ -36,6 +40,10 @@
     font-family: 'Aux Pro';
     font-weight: bold;
     color: $main-color;
+
+     @include respond-to("tablet") {
+      font-size: 1.5rem;
+  }
 }
 
 .tr_description {
@@ -50,10 +58,24 @@
     text-align: center;
     text-transform: uppercase;
     color: $main-color;
+
+    @include respond-to("tablet") {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    > span{
+     width:40%;
+     text-align: center;
+    }
+  }
 }
 
 .tr_answers-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+
+    @include respond-to("tablet") {
+    gap: 1.5rem;
+  }
 }

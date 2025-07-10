@@ -10,6 +10,11 @@
     border-radius: 100%;
     
     background-color: $main-color;
+
+    @include respond-to("tablet") {
+   padding: 1.5rem;
+   right:25rem;
+  }
 }
 
 .ti_wrapper span {
@@ -17,5 +22,9 @@
     font-family: 'Aux Pro';
     font-weight: bold;
 
-    color: white;
+    color: $white-color;
+
+    @include respond-to("tablet") {
+   font-size: 1.5rem;
+  }
 }
