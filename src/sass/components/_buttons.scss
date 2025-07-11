@@ -21,6 +21,10 @@
     text-transform: uppercase;
     color: white;
     transform: translateY(2%);
+
+     @include respond-to("tablet") {
+      font-size:2rem;
+    }
 }
 
 .btn_color-main {

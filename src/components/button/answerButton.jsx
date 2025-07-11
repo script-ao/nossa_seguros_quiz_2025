@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { GameContext } from "../../context";
 function AnswerButton(props) {
   const { text, isCorrect, onClick, id } = props;
 
@@ -11,10 +11,7 @@ function AnswerButton(props) {
 
   return (
     <React.Fragment>
-      <button 
-        className="btn btn_color-secondary"
-        onClick={handleClick}
-      >
+      <button className="btn btn_color-secondary" onClick={handleClick}>
         <span>{text}</span>
       </button>
     </React.Fragment>
