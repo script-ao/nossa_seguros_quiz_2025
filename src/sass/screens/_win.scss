@@ -5,21 +5,10 @@
   flex: 1;
   display: flex;
   align-items: center;
-  background: url("../assets/svgs/backgrounds/background_03.svg") no-repeat ;
+  background: url("../assets/svgs/backgrounds/background_05.svg") no-repeat;
   background-position: center;
   font-family: 'Aux Next';
   position: relative;
-
-  &::before{
-    content: '';
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background: $blue-color-50;
-    
-  }
- 
 }
 
 .wi_container {
@@ -30,7 +19,6 @@
     gap: 6rem;
     position: absolute;
     z-index: 2;
-    
 }
 
 .wi_image_container {
@@ -49,7 +37,7 @@
     .wi_title{
       font-size:5rem;
       text-transform: uppercase;
-      color: $main-color;
+      color: $blue-color;
       font-weight: 800;
     }
 
@@ -59,7 +47,7 @@
       span{
        font-size: 4rem;
        text-transform: uppercase;
-       color: $main-color;
+       color: $blue-color;
        font-weight: 600;
        line-height: 5.5rem;
       display: block;
@@ -67,10 +55,6 @@
           margin-bottom: 2rem;
         }
       }
-
-      
-
-      
     }
    
 }

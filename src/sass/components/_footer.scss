@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: $main-color;
+    background-color: $blue-color;
     border-radius: 10rem;
 
     a {
@@ -59,7 +59,7 @@
     
     text-transform: uppercase;
     
-    color: $main-color;
+    color: $blue-color;
 }
 
 // Contact Badge
@@ -81,11 +81,11 @@
 .ft_icon {
     font-size: 5rem;
     display: flex;
-    color: $main-color; // Refactorar
+    color: $blue-color; // Refactorar
 }
 
 .ft_icons_contact_apps {
-    background: $secondary-color;
+    background: $green-color;
     padding: 1rem 2rem;
     border-radius: 5rem;
 }
@@ -96,13 +96,13 @@
 
     li {
         font-size: 6rem;
-        color: $main-color;
+        color: $blue-color;
     }
 }
 
 
 .ft_number_client {
-    background-color: $main-color;
+    background-color: $blue-color;
     display: flex;
     align-items: center;
     justify-content: center;

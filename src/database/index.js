@@ -1,2 +1,3 @@
-import questionsMale from './data/maleQuestionsFile.json';
+import questionsMale from './data/maleQuestions.json';
 
+export { questionsMale };
