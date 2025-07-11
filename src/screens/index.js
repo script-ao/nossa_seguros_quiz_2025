@@ -5,3 +5,4 @@ export { Trivia } from './trivia'
 export { Win } from './win';
 export { Lose } from './lose';
 export { Register } from './register';
+export { Checkpoint } from './checkpoint';

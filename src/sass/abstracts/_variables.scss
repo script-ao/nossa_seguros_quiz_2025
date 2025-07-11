@@ -1,21 +1,20 @@
-
 /* ============= Font weight ============= */
 $font-medium: 500;
 $font-semi-bold: 600;
 $font-bold: 700;
 
 /* ============= Colours ============= */
-$blue-color: #00325D;
-$blue-color-dark: #00325D40;
+$blue-color: #00325d;
+$blue-color-dark: #00325d40;
 $blue-color-darken: #84a98c;
 $blue-color-light: #354f52;
 $blue-color-lighten: #2f3e46;
 
-$green-color: #99CA3C;
+$green-color: #99ca3c;
 $pink-color: #ff8e8e60;
 $white-color: #fff;
 $text-color: #52796f;
-$hover-works: rgba( 165, 165, 141, .7);
+$hover-works: rgba(165, 165, 141, 0.7);
 
 /* ============= Font ans Typography ============= */
 $body-font: "Poppins", sans-serif;
@@ -36,15 +35,14 @@ $mb-5: 2.5rem;
 /* ============= Z Index ============= */
 $z-fixed: 100;
 
-
 /* ============= Breakpoints ============= */
 $breakpoints: (
-    xxs: 0,
-    xs: 320px,
-    sm: 375px,
-    md: 414px,
-    lg: 430px,
-    xl: 768px,
-    xxl: 820px,
-    xxxl: 1024px
-)
+  xxs: 0,
+  xs: 320px,
+  sm: 375px,
+  md: 414px,
+  lg: 430px,
+  xl: 768px,
+  xxl: 820px,
+  xxxl: 1024px,
+);

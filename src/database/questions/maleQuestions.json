@@ -6,6 +6,7 @@
       {
         "_id": 1,
         "question": "O João está a expandir o seu negócio. Que seguro o ajuda a proteger o seu escritório contra incêndios e roubos?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -28,6 +29,7 @@
       {
         "_id": 2,
         "question": "O João quer proteger a sua família em caso de falecimento. Que seguro deve contratar?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -50,6 +52,7 @@
       {
         "_id": 3,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -72,6 +75,7 @@
       {
         "_id": 4,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -94,6 +98,7 @@
       {
         "_id": 5,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -116,6 +121,7 @@
       {
         "_id": 6,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -138,6 +144,7 @@
       {
         "_id": 7,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -160,6 +167,7 @@
       {
         "_id": 8,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -182,6 +190,7 @@
       {
         "_id": 9,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -204,6 +213,7 @@
       {
         "_id": 10,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -226,6 +236,7 @@
       {
         "_id": 11,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -248,6 +259,7 @@
       {
         "_id": 12,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -270,6 +282,7 @@
       {
         "_id": 13,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -292,6 +305,7 @@
       {
         "_id": 14,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {
@@ -314,6 +328,7 @@
       {
         "_id": 15,
         "question": "O João vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "fallback": "../../assets/images/example.jpeg",
         "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
         "answers": [
           {

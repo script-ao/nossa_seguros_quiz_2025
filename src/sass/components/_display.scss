@@ -1,24 +1,21 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .di_wrapper {
-    width: 79.0rem;
+  width: 79rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    position: relative;
+  position: relative;
 }
 
 .di_container {
-    overflow: hidden;
-    border-radius: 26.4rem;
+  overflow: hidden;
+  border-radius: 26.4rem;
 }
 
 .di_wrapper video {
-    width: 100%;
-    height: 100%;
-
-    
+  width: 100%;
+  height: 100%;
 }
-
