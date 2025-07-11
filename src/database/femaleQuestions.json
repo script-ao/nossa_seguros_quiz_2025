@@ -1,0 +1,338 @@
+{
+  "character": {
+    "name": "Carla",
+    "age": "27",
+    "questions": [
+      {
+        "_id": 1,
+        "question": "A Carla está a expandir o seu negócio. Que seguro o ajuda a proteger o seu escritório contra incêndios e roubos?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Multirriscos",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Vida",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "_id": 2,
+        "question": "A Carla quer proteger a sua família em caso de falecimento. Que seguro deve contratar?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro de Saúde",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Vida",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "_id": 3,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 4,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 5,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 6,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 7,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 8,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 9,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 10,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 11,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 12,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 13,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 14,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "_id": 15,
+        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
+        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Seguro Automóvel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "text": "Seguro de Habitação",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "text": "Seguro de Viagem",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}
