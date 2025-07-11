@@ -13,10 +13,15 @@
 .di_container {
     overflow: hidden;
     border-radius: 26.4rem;
+    @include respond-to("tablet") {
+    width:44%;
+  }
 }
 
 .di_wrapper video {
     width: 100%;
     height: 100%;
+
+    
 }
 

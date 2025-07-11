@@ -1,31 +1,80 @@
+@use '../abstracts' as *;
+@use '../base' as *;
+
 .lo_wrapper {
   flex: 1;
   display: flex;
   align-items: center;
-  background: url("../assets/svgs/backgrounds/background_03.svg") no-repeat;
+  background: url("../assets/svgs/backgrounds/background_04.svg") no-repeat ;
   background-position: center;
+  font-family: 'Aux Next';
+  position: relative;
 }
 
 .lo_container {
-    
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+  position: absolute;
+  z-index: 2;
 }
 
 .lo_image_container {
   display: flex;
   flex-direction: column;
-
   align-items: center;
+  gap: 2rem;
 }
 
 .lo_description-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.4rem;
+}
+
+  .lo_title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: $blue-color;
+    font-weight: bold;
+  }
+
+  .lo_description-content {
+    width: 68%;
+    text-align: center;
+
+    span {
+      font-size: 4.2rem;
+      font-family: 'Aux Pro';
+      text-transform: uppercase;
+      color: $blue-color;
+      font-weight: 800;
+    }
+
+    .lo_description-content{
+      width: 68%;
+      text-align: center;
+
+      span {
+       font-size: 4rem;
+       text-transform: uppercase;
+       color: $blue-color;
+       font-weight: 600;
+       line-height: 5.5rem;
+      display: block;
+
+      &:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }
 
 .lo_btn-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

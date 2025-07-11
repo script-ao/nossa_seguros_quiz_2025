@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { vectorImages } from "../../assets";
 import { Button } from "../../components";
@@ -29,7 +30,9 @@ function Lose() {
             </div>
           </div>
           <div className="lo_btn-container">
-            <Button text="Example" className="btn" />
+            <Link to="/">
+              <Button text="Tentar Novamente" className="btn btn_color-main " />
+            </Link>
           </div>
         </main>
       </section>

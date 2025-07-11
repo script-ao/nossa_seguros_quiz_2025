@@ -14,12 +14,15 @@
 
     display: flex;
     justify-content: center;
+    align-items: center;
 
     background-image: url('../assets/svgs/backgrounds/background_03.svg');
     background-position: cover;
 }
 
 .we_content {
+    
+
     display: flex;
     align-items: center;
     justify-content: end;
@@ -45,7 +48,5 @@
     text-transform: uppercase;
     font-family: 'Aux Pro';
     font-weight: bold;
-    color: $main-color;
+    color: $blue-color;
 }
-
-

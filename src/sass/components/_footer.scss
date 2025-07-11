@@ -1,122 +1,121 @@
-@use '../abstracts' as *;
-@use '../base' as *;
+@use "../abstracts" as *;
+@use "../base" as *;
 
 .ft_wrapper {
-    height: 16.7rem;
-    width: 100%;
+  height: 16.7rem;
+  width: 100%;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .ft_container {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    padding: 0 2rem;
+  padding: 0 2rem;
 }
 
 .ft_digital_channels-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .ft_social_icons-list {
-    display: flex;
-    gap: 2.7rem;
+  display: flex;
+  gap: 2.7rem;
 }
 
 .ft_social_icon {
-    width: 5.979rem;
-    height: 5.979rem;
+  width: 5.979rem;
+  height: 5.979rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: $main-color;
-    border-radius: 10rem;
+  background-color: $blue-color;
+  border-radius: 10rem;
 
-    a {
-        color: #fff;
-        
-        font-size: 3rem;
+  a {
+    color: $white-color;
 
-        top: 50%;
-        left: 50%;
-        transform: translateY(4px);
-    }
+    font-size: 3rem;
+
+    top: 50%;
+    left: 50%;
+    transform: translateY(4px);
+  }
 }
 
 .ft_website_link-container a {
-    font-family: 'Aux Pro';
-    font-size: 2.2rem;
-    font-weight: bold;
-    
-    text-transform: uppercase;
-    
-    color: $main-color;
+  font-family: "Aux Pro";
+  font-size: 2.2rem;
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  color: $blue-color;
 }
 
 // Contact Badge
 
 .ft_contact_badge-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ft_badge_icons_list > li:first-child {
-    margin-right: .8rem;
+  margin-right: 0.8rem;
 }
 
 .ft_badge_icons_list :nth-child(3) {
-    margin-left: .8rem;
+  margin-left: 0.8rem;
 }
 
 .ft_icon {
-    font-size: 5rem;
-    display: flex;
-    color: $main-color; // Refactorar
+  font-size: 5rem;
+  display: flex;
+  color: $blue-color; // Refactorar
 }
 
 .ft_icons_contact_apps {
-    background: $secondary-color;
-    padding: 1rem 2rem;
-    border-radius: 5rem;
+  background: $green-color;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
 }
 
 .ft_badge_icons_list {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    li {
-        font-size: 6rem;
-        color: $main-color;
-    }
+  li {
+    font-size: 6rem;
+    color: $blue-color;
+  }
 }
-
 
 .ft_number_client {
-    background-color: $main-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 2rem;
-    border-radius: 5rem;
-    margin-left: 2rem;
+  background-color: $blue-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  margin-left: 2rem;
 }
 .ft_contact_number {
-    padding-top: .4rem;
-    font-size: 4.6rem;
-    color: white;
-    font-family: 'Aux Next';
+  padding-top: 0.4rem;
+  font-size: 4.6rem;
+  color: $white-color;
+  font-family: "Aux Next";
 }
 
 .ft_message {
-    font-family: 'Aux Next';
+  font-family: "Aux Next";
 }

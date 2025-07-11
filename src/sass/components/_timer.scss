@@ -1,21 +1,20 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .ti_wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
 
-    padding: 3rem;
-    border-radius: 100%;
-    
-    background-color: $main-color;
+  padding: 3rem;
+  border-radius: 100%;
+  background-color: $blue-color;
 }
 
 .ti_wrapper span {
-    font-size: 6rem;
-    font-family: 'Aux Pro';
-    font-weight: bold;
+  font-size: 6rem;
+  font-family: "Aux Pro";
+  font-weight: bold;
 
-    color: white;
+  color: $white-color;
 }

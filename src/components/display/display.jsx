@@ -3,11 +3,11 @@ import React from "react";
 import { Timer } from "../timer";
 import { images } from "../../assets";
 
-function Display() {
+function Display({ onTimeUp }) {
   return (
     <React.Fragment>
       <div className="di_wrapper">
-        <Timer />
+        <Timer onTimeUp={onTimeUp} />
         <div className="di_container">
           <video autoPlay loop poster={images.characters.male.charMaleWide}>
             <source
