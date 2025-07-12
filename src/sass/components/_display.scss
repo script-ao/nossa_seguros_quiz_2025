@@ -8,14 +8,18 @@
     justify-content: center;
 
     position: relative;
+    @include respond-to("tablet") {
+    width:100%;
+    }
 }
 
 .di_container {
     overflow: hidden;
     border-radius: 26.4rem;
     @include respond-to("tablet") {
-    width:44%;
+    width:90%;
   }
+ 
 }
 
 .di_wrapper video {

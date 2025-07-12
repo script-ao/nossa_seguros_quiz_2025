@@ -9,7 +9,7 @@ function Trivia() {
         <section className="tr_container">
           <div className="tr_content">
             <div className="tr_highlight">
-              <Header />
+              {/*<Header />*/}
             </div>
             <div className="tr_app_logo">
               <Display />

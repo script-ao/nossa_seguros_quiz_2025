@@ -9,7 +9,7 @@ function AppLayout() {
         <main>
           <Outlet />
         </main>
-        <Footer />
+      {  <Footer />}
       </section>
     </React.Fragment>
   );
