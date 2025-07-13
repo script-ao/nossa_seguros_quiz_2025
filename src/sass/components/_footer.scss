@@ -31,8 +31,7 @@
 }
 
 .ft_social_icon {
-  width: 5.979rem;
-  height: 5.979rem;
+  padding: 1.979rem;
 
   display: flex;
   align-items: center;
@@ -118,4 +117,96 @@
 
 .ft_message {
   font-family: "Aux Next";
+}
+
+/* ============= Media Queries ============= */
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 820px) {
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 430px) {
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+  .ft_wrapper {
+    padding: 1rem 0;
+  }
+
+  .ft_container {
+    padding: 0 1rem;
+    justify-content: space-between;
+  }
+
+  .ft_digital_channels-container {
+    gap: .5rem;
+  }
+
+  .ft_social_icons-list {
+    gap: .7rem;
+  }
+
+  .ft_social_icon {
+    padding: .479rem;
+    border-radius: 10rem;
+
+    a {
+      font-size: 1.6rem;
+    }
+  }
+
+  .ft_website_link-container a {
+    font-size: .8rem;
+  }
+
+  // Contact Badge
+
+  .ft_contact_badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ft_badge_icons_list > li:first-child {
+    margin-right: 0.8rem;
+  }
+
+  .ft_badge_icons_list :nth-child(3) {
+    margin-left: 0.8rem;
+  }
+
+  .ft_icon {
+    font-size: 2rem;
+  }
+
+  .ft_icons_contact_apps {
+    padding: .6rem 1rem;
+    border-radius: 1rem;
+  }
+
+  .ft_badge_icons_list {
+    li {
+      font-size: 2rem;
+    }
+  }
+
+  .ft_number_client {
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+  }
+  .ft_contact_number {
+    padding-top: 0.4rem;
+    font-size: 1.6rem;
+  }
 }

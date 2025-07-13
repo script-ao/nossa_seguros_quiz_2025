@@ -17,19 +17,26 @@ const shuffleArray = (array) => {
 
 function Trivia() {
   const { questionsMale, questionsFemale } = data;
-  const [state] = useContext(GameContext);
+  const [state, dispatch] = useContext(GameContext);
 
   const navigate = useNavigate();
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [questions, setQuestions] = useState([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(state.currentQuestionIndex || 0);
+  const [score, setScore] = useState(state.score || 0);
+  const [questions, setQuestions] = useState(state.questions || []);
   const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [showCheckpoint, setShowCheckpoint] = useState(false);
   const [timerKey, setTimerKey] = useState(0); // Key to reset timer
   const MAX_QUESTIONS = 9;
 
   // Initialize questions based on selected character
   useEffect(() => {
+    // If we already have questions in the state, use them
+    if (state.questions && state.questions.length > 0) {
+      setQuestions(state.questions);
+      setCurrentQuestion(state.questions[currentQuestionIndex]);
+      setTimerKey(prevKey => prevKey + 1); // Reset timer on initial load
+      return;
+    }
+
     let characterQuestions = [];
 
     if (state.character_name === "João" && 
@@ -61,39 +68,49 @@ function Trivia() {
 
     setQuestions(processedQuestions);
     setCurrentQuestion(processedQuestions[0]);
-    setTimerKey(prevKey => prevKey + 1); // Reset timer on initial load
-  }, [state.character_name]);
 
-  // Check if we should show checkpoint (after every 3 questions)
-  useEffect(() => {
-    if (currentQuestionIndex > 0 && currentQuestionIndex % 3 === 0) {
-      setShowCheckpoint(true);
-    }
-  }, [currentQuestionIndex]);
+    // Update the context
+    dispatch({ type: 'set_questions', payload: processedQuestions });
+
+    setTimerKey(prevKey => prevKey + 1); // Reset timer on initial load
+  }, [state.character_name, state.questions, currentQuestionIndex, dispatch]);
+
+  // No need to check for checkpoint in useEffect anymore as we'll navigate directly
 
   // Handle answer selection
   const handleAnswerClick = (id, isCorrect) => {
     if (!isCorrect) {
       // If answer is incorrect, player loses
+      // Reset game state before navigating
+      dispatch({ type: 'reset_game' });
       navigate("/lose");
       return;
     }
 
-    setScore(score + 1);
+    const newScore = score + 1;
+    setScore(newScore);
+    dispatch({ type: 'update_score', payload: newScore });
 
     // Check if all questions are answered
     if (currentQuestionIndex === questions.length - 1) {
+      // Reset game state before navigating
+      dispatch({ type: 'reset_game' });
       navigate("/win");
       return;
     }
 
-    // Check if we need to show checkpoint
+    // Check if we need to navigate to checkpoint
     if ((currentQuestionIndex + 1) % 3 === 0) {
-      setShowCheckpoint(true);
+      // Update question index in context before navigating
+      const newIndex = currentQuestionIndex + 1;
+      dispatch({ type: 'update_question_index', payload: newIndex });
+      navigate("/checkpoint");
     } else {
       // Move to next question
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setCurrentQuestion(questions[currentQuestionIndex + 1]);
+      const newIndex = currentQuestionIndex + 1;
+      setCurrentQuestionIndex(newIndex);
+      setCurrentQuestion(questions[newIndex]);
+      dispatch({ type: 'update_question_index', payload: newIndex });
       // Reset timer for the new question
       setTimerKey(prevKey => prevKey + 1);
     }
@@ -102,59 +119,14 @@ function Trivia() {
   // Handle time up
   const handleTimeUp = () => {
     // If time is up, player loses
+    // Reset game state before navigating
+    dispatch({ type: 'reset_game' });
     navigate("/lose");
-  };
-
-  // Handle continue from checkpoint
-  const handleContinue = () => {
-    setShowCheckpoint(false);
-    setCurrentQuestionIndex(currentQuestionIndex + 1);
-    setCurrentQuestion(questions[currentQuestionIndex + 1]);
-    // Reset timer for the new question after checkpoint
-    setTimerKey(prevKey => prevKey + 1);
-  };
-
-  // Handle win from checkpoint
-  const handleWin = () => {
-    navigate("/win");
   };
 
   // If questions are not loaded yet
   if (!currentQuestion) {
     return <div>Loading...</div>;
-  }
-
-  // Render checkpoint screen
-  if (showCheckpoint) {
-    return (
-      <React.Fragment>
-        <div className="tr_wrapper">
-          <section className="tr_container">
-            <div className="tr_content">
-              <div className="tr_highlight">
-                <Header />
-              </div>
-              <div className="tr_description">
-                <span>Parabéns! Você completou mais uma etapa.</span>
-              </div>
-              <div className="tr_checkpoint-container">
-                <div className="tr_checkpoint-message">
-                  <span>Deseja continuar o jogo ou vencer agora?</span>
-                </div>
-                <div className="tr_checkpoint-buttons">
-                  <button className="tr_checkpoint-button" onClick={handleContinue}>
-                    Continuar
-                  </button>
-                  <button className="tr_checkpoint-button" onClick={handleWin}>
-                    Vencer
-                  </button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </React.Fragment>
-    );
   }
 
   // Render trivia screen

@@ -68,4 +68,30 @@
 }
 
 @media (max-width: 320px) {
+  .we_content {
+    & > :nth-child(2) {
+      margin-top: 9rem;
+
+      img {
+        width: 10rem;
+      }
+    }
+
+    & > :nth-child(3) {
+      margin-top: 7.6rem;
+
+      img {
+        width: 10rem;
+      }
+    }
+
+    & > :nth-child(4) {
+      margin-top: 6.7rem;
+      position: relative;
+
+      img {
+        width: 10rem;
+      }
+    }
+  }
 }
