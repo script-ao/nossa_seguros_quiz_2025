@@ -16,6 +16,7 @@
   align-items: center;
 
   background-image: url("../assets/svgs/backgrounds/background_03.svg");
+  background-repeat: no-repeat;
   background-position: cover;
 }
 
@@ -68,29 +69,36 @@
 }
 
 @media (max-width: 320px) {
+  .we_highlight {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
   .we_content {
+    height: 100%;
+    gap: 2rem;
     & > :nth-child(2) {
-      margin-top: 9rem;
+      margin-top: unset;
 
       img {
-        width: 10rem;
+        width: 15rem;
       }
     }
 
     & > :nth-child(3) {
-      margin-top: 7.6rem;
+      margin-top: unset;
 
       img {
-        width: 10rem;
+        width: 15rem;
       }
     }
 
     & > :nth-child(4) {
-      margin-top: 6.7rem;
+      margin-top: unset;
       position: relative;
-
+      bottom: 0;
       img {
-        width: 10rem;
+        width: 15rem;
       }
     }
   }
