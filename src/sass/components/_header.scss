@@ -1,17 +1,17 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 
 .he_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    gap: 6.5rem;
+  gap: 6.5rem;
 }
 
 .game_logo img {
-    width: 45.7rem;
+  width: 45.7rem;
 }
 
 .brand_logo img {
-    width: 36.5rem;
+  width: 36.5rem;
 }
