@@ -9,6 +9,24 @@
   background-position: center;
   font-family: "Aux Next";
   position: relative;
+
+  width:100%;
+  
+
+  &::before {
+    content: '';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: $pink-color;
+
+    
+  }
+
+  
+
 }
 
 .lo_container {
@@ -88,6 +106,20 @@
 }
 
 @media (max-width: 768px) {
+  .lo_description-content {
+  width: 90%;
+  text-align: center;
+}
+
+.lo_image_container {
+
+  /*div {
+    width:0%;
+    > img{
+      max-width: 100%;
+    }
+  }
+}*/
 }
 @media (max-width: 430px) {
 }
@@ -99,4 +131,5 @@
 }
 
 @media (max-width: 320px) {
+}
 }

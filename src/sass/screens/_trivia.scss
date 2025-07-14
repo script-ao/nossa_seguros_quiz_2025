@@ -4,8 +4,14 @@
   flex: 1;
   width: 100%;
 
+
+    display: flex;
+    flex-direction: column;
+   
+
   display: flex;
   flex-direction: column;
+
 }
 
 .tr_container {
@@ -16,6 +22,22 @@
   justify-content: center;
   align-items: center;
 
+
+    background-image: url('../assets/svgs/backgrounds/background_01.svg');
+    background-position: cover;
+    
+   
+}
+
+.tr_content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 7rem;
+    width:100%;
+
+ 
   background-image: url("../assets/svgs/backgrounds/background_01.svg");
   background-position: cover;
 }
@@ -26,6 +48,7 @@
   justify-content: end;
   flex-direction: column;
   gap: 7rem;
+
 }
 
 .tr_highlight {
@@ -46,6 +69,28 @@
   font-family: "Aux Pro";
   font-weight: bold;
 
+
+    text-align: center;
+    text-transform: uppercase;
+    color: $blue-color;
+
+    //@include respond-to("tablet") {
+    //font-size: 1.5rem;
+    //align-items: center;
+    //justify-content: center;
+    //> span{
+     //width:90%;
+     //text-align: center;
+    //}
+  //}
+}
+
+.tr_answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  
+    
   text-align: center;
   text-transform: uppercase;
   color: $blue-color;
@@ -84,7 +129,7 @@
   font-family: "Aux Pro";
   font-weight: bold;
   text-transform: uppercase;
-  color: white;
+  color: $white-color;
   background-color: $blue-color;
   border: none;
   border-radius: 1rem;

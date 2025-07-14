@@ -9,6 +9,23 @@
   background-position: center;
   font-family: "Aux Next";
   position: relative;
+
+  width:100%;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top:0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: $blue-color;
+
+    
+  }
+
+
+
 }
 
 .wi_container {

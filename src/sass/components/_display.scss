@@ -7,12 +7,24 @@
   align-items: center;
   justify-content: center;
 
+
+    position: relative;
+    
+}
+
+.di_container {
+    overflow: hidden;
+    border-radius: 26.4rem;
+   
+ 
+
   position: relative;
 }
 
 .di_container {
   overflow: hidden;
   border-radius: 26.4rem;
+
 }
 
 .di_wrapper video {
