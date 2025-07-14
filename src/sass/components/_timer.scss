@@ -6,9 +6,17 @@
   right: 0;
   z-index: 5;
 
+
+    padding: 3rem;
+    border-radius: 100%;
+    
+    background-color: $blue-color;
+
+  
   padding: 3rem;
   border-radius: 100%;
   background-color: $blue-color;
+
 }
 
 .ti_wrapper span {

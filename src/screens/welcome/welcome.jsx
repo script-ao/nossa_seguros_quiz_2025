@@ -23,7 +23,7 @@ function Welcome() {
             </div>
             <div className="image_characters">
               <img src={images.characters.random.maleAndFemale} alt="#" />
-              <Link to="/intro">
+              <Link to="/gender">
                 <Button
                   text="Quero Jogar"
                   className="btn we_position btn_color-main"

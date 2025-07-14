@@ -8,6 +8,7 @@ import {
   Lose,
   Win,
   Register,
+  Checkpoint
 } from "../../screens";
 
 import { AppLayout } from "../../layouts";
@@ -18,9 +19,10 @@ function AppRouter() {
       <Routes>
         <Route element={<AppLayout />}>
           <Route index path="/" element={<Welcome />} />
+          <Route path="/gender" element={<Gender />} />
           <Route path="/intro" element={<Intro />} />
-          <Route path="/start" element={<Gender />} />
           <Route path="/trivia" element={<Trivia />} />
+          <Route path="/checkpoint" element={<Checkpoint />} />
           <Route path="/win" element={<Win />} />
           <Route path="/lose" element={<Lose />} />
           <Route path="/register" element={<Register />} />

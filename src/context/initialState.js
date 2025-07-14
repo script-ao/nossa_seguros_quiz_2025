@@ -1,5 +1,7 @@
 
-
 export const InitialStage = {
-    character_name : null,
+    character_name: null,
+    currentQuestionIndex: 0,
+    questions: [],
+    score: 0
 }

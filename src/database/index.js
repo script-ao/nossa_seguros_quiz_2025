@@ -1,3 +1,9 @@
-import questionsMale from './data/maleQuestions.json';
+import questionsMale from './questions/maleQuestions.json';
+import questionsFemale from './questions/femaleQuestions.json';
 
-export { questionsMale };
+const data = {
+    questionsMale,
+    questionsFemale
+}
+
+export { data }
