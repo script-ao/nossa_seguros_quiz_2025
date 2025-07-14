@@ -31,7 +31,7 @@
   .ti_wrapper {
   
 
-  right: 7rem;
+  right: 14rem;
   padding: 1.6rem;
   
 
@@ -45,7 +45,7 @@
   .ti_wrapper {
   
 
-  right: 10rem;
+  right: 12rem;
   padding: 1.6rem;
   
 
@@ -55,6 +55,36 @@
   }
 }
 @media (max-width: 430px) {
+  .ti_wrapper {
+  
+
+  right: 5rem;
+  padding: 1.5rem;
+  
+
+}
+  .ti_wrapper span {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media (max-width: 415px) {
+  .ti_wrapper {
+  
+
+  right: 5rem;
+  padding: 1.5rem;
+  
+
+}
+  .ti_wrapper span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 375px) {
   .ti_wrapper {
   
 
@@ -68,53 +98,11 @@
   }
 }
 
-@media (max-width: 375px) {
-  .ti_wrapper {
-  
-
-  right: 2rem;
-  padding: 1.5rem;
-  
-
-}
-  .ti_wrapper span {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 415px) {
-  .ti_wrapper {
-  
-
-  right: 3rem;
-  padding: 1.5rem;
-  
-
-}
-  .ti_wrapper span {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .ti_wrapper {
-  
-
-  right: 2rem;
-  padding: 1.5rem;
-  
-
-}
-  .ti_wrapper span {
-    font-size: 1.5rem;
-  }
-}
-
 @media (max-width: 320px) {
   .ti_wrapper {
   
 
-  right: 2rem;
+  right: 3.5rem;
   padding: 1.5rem;
   
 
