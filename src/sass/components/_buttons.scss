@@ -51,14 +51,15 @@
   .btn span {
     line-height: 1;
 
-    font-size: 2rem;
+    font-size: 3rem;
     transform: translateY(2%);
   }
 
   .we_position {
     position: absolute;
-    bottom: 8rem;
+    bottom: 12rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 }
 
@@ -71,14 +72,15 @@
   .btn span {
     line-height: 1;
 
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     transform: translateY(2%);
   }
 
   .we_position {
     position: absolute;
-    bottom: 8rem;
+    bottom: 10rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 
 }
@@ -92,39 +94,41 @@
   .btn span {
     line-height: 1;
 
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     transform: translateY(2%);
   }
 
   .we_position {
     position: absolute;
-    bottom: 5rem;
+    bottom: 8rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 }
 @media (max-width: 430px) {
   .btn {
-    padding: 1rem 2rem;
+    padding: 2rem 3rem;
     border-radius: 5rem;
   }
 
   .btn span {
     line-height: 1;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     transform: translateY(2%);
   }
 
   .we_position {
     position: absolute;
-    bottom: 4rem;
+    bottom: 8rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 }
 
 @media (max-width: 414px) {
     .btn {
-    padding: 1.5rem 2.5rem;
+    padding: 2rem 2.5rem;
     border-radius: 5rem;
   }
 
@@ -137,8 +141,9 @@
 
   .we_position {
     position: absolute;
-    bottom: 5rem;
+    bottom: 7rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
 }
 
@@ -158,8 +163,9 @@
 
   .we_position {
     position: absolute;
-    bottom: 1rem;
+    bottom: 6rem;
     margin-bottom: 1rem;
+    width: 100%;
   }
   
 }
@@ -173,13 +179,15 @@
   .btn span {
     line-height: 1;
 
-    font-size: 1rem;
+    font-size: 1.5rem;
     transform: translateY(2%);
   }
 
   .we_position {
+    
     position: absolute;
-    bottom: 0;
-    margin-bottom: 3rem;
+    width: 100%;
+    bottom: 5rem;
+    //margin-bottom: 3rem;
   }
 }

@@ -49,6 +49,12 @@
   color: $blue-color;
 }
 
+.we_btn{
+  position:relative;
+  
+  
+}
+
 /* ============= Media Queries ============= */
 
 @media (max-width: 1024px) {
@@ -83,6 +89,9 @@
         width: 55rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 
 }
@@ -155,6 +164,9 @@
         width: 40rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -191,6 +203,9 @@
         width: 35rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -226,6 +241,9 @@
         width: 32rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -262,6 +280,9 @@
         width: 23rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -292,6 +313,7 @@
     & > :nth-child(4) {
        margin-top: 1.7rem;
       position: relative;
+      
 
       img {
 
@@ -301,6 +323,10 @@
     }
 
     
+  }
+
+  .we_btn{
+  width: 90%;
   }
 }
 }
