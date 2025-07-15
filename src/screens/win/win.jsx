@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Confetti from "react-confetti";
 import { useNavigate } from "react-router-dom";
 
 import { vectorImages } from "../../assets";
@@ -7,6 +8,14 @@ import { Button } from "../../components";
 function Win() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      navigate("/register");
+    }, 8000);
+
+    return () => clearTimeout(timeoutId);
+  }, [navigate]);
+
   function handleClick() {
     navigate("/register");
   }
@@ -14,6 +23,7 @@ function Win() {
   return (
     <React.Fragment>
       <section className="wi_wrapper">
+        <Confetti width={window.innerWidth} height={window.innerHeight} />
         <main className="wi_container">
           <div className="wi_image_container">
             <div>
