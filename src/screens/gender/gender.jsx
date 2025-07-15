@@ -1,16 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useContext} from "react"
+import { useContext } from "react";
 
 import { images } from "../../assets";
 import { vectorImages } from "../../assets";
 
-import {GameContext} from "../../context"
+import { GameContext } from "../../context";
 function Gender() {
-  const [state,Dispach] = useContext(GameContext);
+  const [state, Dispach] = useContext(GameContext);
 
- 
-  
   return (
     <React.Fragment>
       <div className="ge_wrapper">
@@ -39,7 +37,11 @@ function Gender() {
             <div className="ge_btns_container">
               <div className="ge_btn_container-female">
                 <Link to="/trivia">
-                  <button onClick={() => Dispach({type:'select_genere', payload: 'Carla'})}>
+                  <button
+                    onClick={() =>
+                      Dispach({ type: "select_genere", payload: "Carla" })
+                    }
+                  >
                     <img src={images.characters.female.charFemaleBk} alt="" />
                   </button>
                 </Link>
@@ -50,7 +52,11 @@ function Gender() {
               </div>
               <div className="ge_btn_container-male">
                 <Link to="/trivia">
-                  <button onClick={() => Dispach({type:'select_genere', payload: 'João'})}>
+                  <button
+                    onClick={() =>
+                      Dispach({ type: "select_genere", payload: "João" })
+                    }
+                  >
                     <img src={images.characters.male.charMaleBk} alt="" />
                   </button>
                 </Link>
