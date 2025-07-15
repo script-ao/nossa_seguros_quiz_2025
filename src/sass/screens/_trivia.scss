@@ -69,10 +69,11 @@
   font-family: "Aux Pro";
   font-weight: bold;
 
+  padding:0 9rem;
 
-    text-align: center;
-    text-transform: uppercase;
-    color: $blue-color;
+  text-align: center;
+  text-transform: uppercase;
+  color: $blue-color;
 
 }
 
@@ -131,44 +132,37 @@
 /* ============= Media Queries ============= */
 
 @media (max-width: 1024px) {
+  .tr_content {
+    gap: 4rem;
+    width:100%;
+}
   .tr_description {
-  
-  width:70%;
+  padding:0 14rem;
   font-size: 3.5rem;
-
 }
 }
 
 @media (max-width: 820px) {
-    .tr_content {
-    
-    gap: 5rem;
+  .tr_content {
+    gap: 4rem;
     width:100%;
-
- 
-
 }
 
 
 .tr_description {
   
-  width:70%;
-  font-size: 2.5rem;
+  padding:0 12rem;
+  font-size: 2.8rem;
 
 }
 
 .tr_answers-container {
-    
-    gap: 3rem;
-  
- 
+  gap: 2.5rem;
 }
 
 
 .tr_checkpoint-container {
- 
   gap: 2rem;
- 
 }
 
 .tr_checkpoint-message {
@@ -190,35 +184,24 @@
 
 @media (max-width: 768px) {
   .tr_content {
-    
     gap: 4rem;
     width:100%;
-
- 
-
 }
 
 
 .tr_description {
-  
-  width:70%;
-  font-size: 2.2rem;
-
+  padding:0 10rem;
+  font-size: 2.5rem;
 }
 
-.tr_answers-container {
-   
-    gap: 3rem;
-  
-
+.tr_answers-container { 
+  gap: 3rem;
 }
 
 
 
 .tr_checkpoint-container {
- 
   gap: 2rem;
- 
 }
 
 .tr_checkpoint-message {
@@ -257,17 +240,14 @@
 }
 
 .tr_description {
-  
-  width:70%;
-  font-size: 1.7rem;
-
+  padding:0 5.5rem;
+  font-size: 2.3rem;
 }
 
 .tr_answers-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
     
   text-align: center;
   text-transform: uppercase;
@@ -306,9 +286,6 @@
     
     gap: 3rem;
     width:100%;
-
- 
-
 }
 
 
@@ -319,26 +296,22 @@
 }
 
 .tr_description {
-  
-  width:70%;
-  font-size: 1.4rem;
+  padding:0 5rem;
 
+  font-size: 2rem;
 }
 
 
 .tr_answers-container {
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .tr_checkpoint-container {
- 
   gap: 2rem;
- 
 }
 
 .tr_checkpoint-message {
   font-size: 1.5rem;
-  
 }
 
 .tr_checkpoint-buttons {
@@ -355,12 +328,9 @@
 
 @media (max-width: 375px) {
   .tr_content {
-    
     gap: 3rem;
+
     width:100%;
-
- 
-
 }
 
 
@@ -371,16 +341,15 @@
 }
 
 .tr_description {
-  
-  width:70%;
-  font-size: 1.5rem;
+  padding:0 3rem;
 
+  font-size: 1.5rem;
 }
 
 
 
 .tr_answers-container {
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .tr_checkpoint-container {
@@ -408,9 +377,6 @@
 
 @media (max-width: 320px) {
 
-
-
-
 .tr_content {
     display: flex;
     align-items: center;
@@ -418,9 +384,6 @@
     flex-direction: column;
     gap: 2rem;
     width:100%;
-
- 
-
 }
 
 
@@ -431,8 +394,7 @@
 }
 
 .tr_description {
-  
-  
+  padding:0 4.8rem;
 
   font-size: 1.25em;
 
@@ -471,3 +433,47 @@
 }
 
 
+@media (max-width: 320px) and (max-width: 480px) {
+
+.tr_content {
+  gap: 1rem;
+}
+
+
+
+.tr_highlight {
+  font-size: 1.5rem; 
+}
+
+.tr_description {
+  padding:0 4.8rem;
+
+  font-size: 1.25em;
+
+}
+
+.tr_answers-container {
+  gap: 1.5rem;
+}
+
+
+
+.tr_checkpoint-container {
+  gap: 2rem;
+}
+
+.tr_checkpoint-message {
+  font-size: 1.5rem;
+}
+
+.tr_checkpoint-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.tr_checkpoint-button {
+  padding: 1.5rem 3rem;
+  font-size: 2.5rem;
+  
+}
+}

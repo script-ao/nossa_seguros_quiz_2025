@@ -121,8 +121,8 @@ function Trivia() {
     // If time is up, player loses
     // Reset game state before navigating
 
-    dispatch({ type: 'reset_game' });
-    navigate("/lose");
+    //dispatch({ type: 'reset_game' });
+    //navigate("/lose");
   };
 
   // If questions are not loaded yet
@@ -137,7 +137,7 @@ function Trivia() {
         <section className="tr_container">
           <div className="tr_content">
             <div className="tr_highlight">
-              {/*<Header />*/}
+              <Header />
             </div>
             <div className="tr_app_logo">
               <Display 
