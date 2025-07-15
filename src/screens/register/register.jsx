@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+
 import { vectorImages } from "../../assets";
 import { Button } from "../../components";
+
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

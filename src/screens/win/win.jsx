@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { vectorImages } from "../../assets";
 import { Button } from "../../components";
 
 function Win() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate("/register");
+  }
+
   return (
     <React.Fragment>
       <section className="wi_wrapper">
@@ -21,18 +27,23 @@ function Win() {
             <span className="wi_title">Parabéns!</span>
             <div className="wi_description-content">
               <span>
-                Você mostrou que está bem informado e preparado para garantir a
-                sua tranquilidade e a da sua família.
+                <p>Você mostrou que está bem</p>
+                <p>informado e preparado para</p>
+                <p>garantir a sua tranquilidade e a</p>
+                <p>da sua família.</p>
               </span>
               <span>
-                Na Nossa Seguros, a sua segurança é a nossa prioridade.
+                <p>Na Nossa Seguros, a sua</p>
+                <p>segurança é a nossa prioridade.</p>
               </span>
             </div>
           </div>
           <div className="wi_btn-container">
-            <Link to="/register">
-              <Button text="RECEBER Prémio" className="btn btn_color-main " />
-            </Link>
+            <Button
+              text="receber prémio"
+              className="btn btn_color-main "
+              onClick={handleClick}
+            />
           </div>
         </main>
       </section>
