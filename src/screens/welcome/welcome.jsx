@@ -29,11 +29,13 @@ function Welcome() {
             </div>
             <div className="image_characters">
               <img src={images.characters.random.maleAndFemale} alt="#" />
-              <Button
-                text="Quero Jogar"
-                className="btn we_position btn_color-main"
-                onClick={handleClick}
-              />
+              <div className="we_btn">
+                <Button
+                  text="Quero Jogar"
+                  className="btn we_position btn_color-main"
+                  onClick={handleClick}
+                />
+              </div>
             </div>
           </div>
         </section>

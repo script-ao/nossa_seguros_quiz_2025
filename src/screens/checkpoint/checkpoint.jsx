@@ -45,8 +45,16 @@ function Checkpoint() {
             </div>
           </div>
           <div className="ch_btn-container">
-            <Button text="Continuar" className="btn btn_color-main" onClick={handleContinue}/>
-            <Button text="Vencer" className="btn btn_color-main" onClick={handleWin}/>
+            <Button
+              text="Continuar"
+              className="btn btn_color-main"
+              onClick={handleContinue}
+            />
+            <Button
+              text="Vencer"
+              className="btn btn_color-main"
+              onClick={handleWin}
+            />
           </div>
         </main>
       </section>
