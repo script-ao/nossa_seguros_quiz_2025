@@ -49,13 +49,19 @@
   color: $blue-color;
 }
 
+.we_btn{
+  position:relative;
+  
+  
+}
+
 /* ============= Media Queries ============= */
 
 @media (max-width: 1024px) {
      .we_content {
 
     .we_highlight{
-      font-size: 1.5rem;
+      font-size: 1.8rem;
    }
 
     & > :nth-child(2) {
@@ -83,6 +89,9 @@
         width: 55rem;
       }
     }
+    .we_btn{
+      width: 90%;
+  }
   }
 
 }
@@ -117,7 +126,7 @@
 
       img {
         margin-top: unset;
-        width: 48rem;
+        width: 47rem;
       }
     }
   }
@@ -155,6 +164,9 @@
         width: 40rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -191,6 +203,9 @@
         width: 35rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -223,9 +238,12 @@
 
       img {
         margin-top: unset;
-        width: 35rem;
+        width: 32rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
@@ -262,19 +280,22 @@
         width: 23rem;
       }
     }
+    .we_btn{
+  width: 90%;
+  }
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 320px ) {
  .we_content {
 
   .we_highlight{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
    }
     
 
     & > :nth-child(2) {
-       margin-top: 2rem;
+       margin-top: 1.5rem;
 
       img {
         width: 15rem;
@@ -292,17 +313,66 @@
     & > :nth-child(4) {
        margin-top: 1.7rem;
       position: relative;
+      
 
       img {
 
       margin-top: unset;
+      width: 21.5rem;
+      
+    }
+
+    
+  }
+
+  .we_btn{
+  width: 90%;
+  }
+}
+
+}
+
+@media (max-width: 320px ) and (max-height: 480px){
+    .we_content {
+
+  .we_highlight{
+      font-size: 1.2rem;
+   }
+    
+
+    & > :nth-child(2) {
+       margin-top: 1.5rem;
 
       img {
         width: 15rem;
       }
     }
 
+    & > :nth-child(3) {
+      margin-top: 1.6rem;
+
+      img {
+        width: 15rem;
+      }
+    }
+
+    & > :nth-child(4) {
+       margin-top: 1.7rem;
+      position: relative;
+      
+
+      img {
+
+      margin-top: unset;
+      width: 16rem;
+      
+    }
+
     
+  }
+
+  .we_btn{
+  width: 90%;
   }
 }
 }

@@ -120,6 +120,7 @@ function Trivia() {
   const handleTimeUp = () => {
     // If time is up, player loses
     // Reset game state before navigating
+
     dispatch({ type: 'reset_game' });
     navigate("/lose");
   };
