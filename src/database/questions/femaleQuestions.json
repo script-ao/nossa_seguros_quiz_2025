@@ -21,7 +21,7 @@
           ],
           "explanation": "O seguro Automóvel é uma solução que garante a protecção contra danos que possam ser causados a terceiros, oferecendo também um conjunto de coberturas que visam proteger a própria viatura.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_1_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 2,
@@ -33,7 +33,7 @@
           ],
           "explanation": "O seguro de Viagem é uma solução que garante o acesso a diversas coberturas que o protegem de riscos durante as viagens, incluindo acidentes que possam ocorrer durante o período de estadia no local de destino.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_2_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 3,
@@ -45,7 +45,7 @@
           ],
           "explanation": "O seguro Multirrisco Habitação é uma solução que garante a protecção do seu património contra danos resultantes de incêndio, inundações, tempestade, riscos eléctricos, roubo e outros.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_3_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 4,
@@ -57,7 +57,7 @@
           ],
           "explanation": "O seguro de Acidentes Pessoais, é uma solução que garante a protecção contra situações que possam pôr em causa o curso normal da vida das pessoas, seja em actividades laborais ou de lazer.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_4_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 5,
@@ -69,7 +69,7 @@
           ],
           "explanation": "O seguro de Vida é uma solução que garante a proteção financeira para si (em caso de invalidez ou doença grave) e para a sua família (em caso de morte), de forma a proporcionar o conforto e a estabilidade que merecem.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_5_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         }
       ]
     },
@@ -87,7 +87,7 @@
           ],
           "explanation": "O seguro de Saúde garante assistência médica durante a gestação, Por meio da cobertura de Assistência no Parto, desde exames pré-natais, parto e cuidados pós-natais. Esta cobertura está sujeita a um período de carência de 365 dias, pelo que requer algum planeamento caso se pretenda beneficiar da mesma no âmbito do seguro de Saúde.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_6_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 7,
@@ -99,7 +99,7 @@
           ],
           "explanation": "O seguro de Responsabilidade Civil é uma solução destinada a proteger as empresas dos danos que possam causar a terceiros, resultantes do exercício das suas actividades.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_7_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 8,
@@ -111,7 +111,7 @@
           ],
           "explanation": "O seguro Multirrisco Estabelecimento é uma solução que protege o património da sua empresa, contra riscos variados, que possam afectar o bom funcionamento da mesma.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_8_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 9,
@@ -123,7 +123,7 @@
           ],
           "explanation": "O Fundo de Pensões é uma solução de investimento a longo prazo que permite protegê-lo financeiramente, através de contribuições mensais, promovendo a manutenção da sua qualidade de vida e bem-estar no período da reforma.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_9_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 10,
@@ -135,7 +135,7 @@
           ],
           "explanation": "O seguro de Responsabilidade Civil é uma solução destinada a proteger as empresas dos danos que possam causar a terceiros, resultantes do exercício das suas actividades.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_10_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         }
       ]
     },
@@ -153,7 +153,7 @@
           ],
           "explanation": "O Fundo de Pensões é uma solução de investimento a longo prazo que permite protegê-lo financeiramente, através de contribuições mensais, promovendo a manutenção da sua qualidade de vida e bem-estar no período da reforma.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_11_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 12,
@@ -165,7 +165,7 @@
           ],
           "explanation": "O seguro de Vida é uma solução que garante a proteção financeira para si (em caso de invalidez ou doença grave) e para a sua família (em caso de morte), de forma a proporcionar o conforto e a estabilidade que merecem.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_12_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 13,
@@ -177,7 +177,7 @@
           ],
           "explanation": "O seguro Multirrisco Estabelecimento é uma solução que protege o património da sua empresa, contra riscos variados, que possam afectar o bom funcionamento da mesma.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_13_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         },
         {
           "id": 14,
@@ -189,7 +189,7 @@
           ],
           "explanation": "O seguro de Saúde é uma solução que garante o acesso a uma variedade de serviços e cuidados médicos, através de uma ampla rede de clínicas e farmácias de qualidade.",
           "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-          "fallback": "../../assets/images/video_14_fallback.jpeg"
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
         }
       ]
     }
