@@ -5,9 +5,11 @@
   flex: 1;
   display: flex;
   align-items: center;
+
+  font-family: "Aux Next";
+
   background: url("../assets/svgs/backgrounds/background_03.svg") no-repeat;
   background-position: center;
-  font-family: "Aux Next";
 
  
 }
@@ -35,15 +37,19 @@
 
   .re_title {
     font-size: 5rem;
-    text-transform: uppercase;
-    color: $blue-color;
     font-weight: 800;
+
+    color: $blue-color;
+
+    text-transform: uppercase;
   }
   .re_subtitle {
     font-size: 5rem;
-    text-transform: uppercase;
-    color: $blue-color;
     font-weight: 800;
+
+    color: $blue-color;
+
+    text-transform: uppercase;
   }
 }
 
@@ -55,11 +61,13 @@
   justify-content: center;
 
   p {
-    font-size: 4rem;
-    text-transform: uppercase;
-    color: $blue-color;
-    font-weight: 600;
     margin-bottom: 2.5rem;
+
+    font-size: 4rem;
+    font-weight: 600;
+
+    color: $blue-color;
+    text-transform: uppercase;
   }
 }
 
@@ -69,32 +77,45 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  width: 100%;
+
   margin-bottom: 2rem;
+
+  width: 100%;
 
   div {
     display: flex;
     align-items: center;
     gap: 2rem;
-    width: 100%;
-    background: $green-color;
+
     padding: 2rem 3rem;
+
+    width: 100%;
+
+    background: $green-color;
     border-radius: 8rem;
 
     label {
       font-size: 3rem;
-      color: $blue-color;
       font-weight: 600;
+
+      color: $blue-color;
+
       text-transform: uppercase;
     }
 
     input {
-      width: 100%;
       padding: 3rem;
-      background: $blue-color;
-      border-radius: 5rem;
-      color: $white-color;
+
       font-size: 3rem;
+
+      color: $white-color;
+      
+      width: 100%;
+      
+      background: $blue-color;
+      border:none;
+      outline: none;
+      border-radius: 5rem;
     }
 
     input[type="number"]::-webkit-inner-spin-button,
