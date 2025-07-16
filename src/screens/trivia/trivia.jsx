@@ -121,8 +121,8 @@ function Trivia() {
     // If time is up, player loses
     // Reset game state before navigating
 
-    //dispatch({ type: 'reset_game' });
-    //navigate("/lose");
+    dispatch({ type: 'reset_game' });
+    navigate("/lose");
   };
 
   // If questions are not loaded yet
@@ -147,19 +147,21 @@ function Trivia() {
                 fallbackImage={currentQuestion.fallback}
               />
             </div>
-            <div className="tr_description">
-              <span>{currentQuestion.question}</span>
-            </div>
-            <div className="tr_answers-container">
-              {currentQuestion.answers.map((answer) => (
-                <AnswerButton
-                  key={answer.id}
-                  id={answer.id}
-                  text={answer.text}
-                  isCorrect={answer.isCorrect}
-                  onClick={handleAnswerClick}
-                />
-              ))}
+            <div className="tr_answers_description_container">
+              <div className="tr_description">
+                <span>{currentQuestion.question}</span>
+              </div>
+              <div className="tr_answers-container">
+                {currentQuestion.answers.map((answer) => (
+                  <AnswerButton
+                    key={answer.id}
+                    id={answer.id}
+                    text={answer.text}
+                    isCorrect={answer.isCorrect}
+                    onClick={handleAnswerClick}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </section>
