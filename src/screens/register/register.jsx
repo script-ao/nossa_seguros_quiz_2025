@@ -22,30 +22,32 @@ function Register() {
       phone,
     };
 
-    fetch("https://platform.bisc8.digital/webhook/80235756-4d10-4881-855d-7423e67ffc27", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    })
-    .then((res) => {
-      if (!res.ok) throw new Error("Erro ao enviar dados");
-      return res.json();
-    })
-    .then((data) => {
-      console.log("Resposta do servidor:", data);
-      alert("Dados submetidos com sucesso!");
+    fetch(
+      "https://platform.bisc8.digital/webhook/80235756-4d10-4881-855d-7423e67ffc27",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      }
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Erro ao enviar dados");
+        return res.json();
+      })
+      .then((data) => {
+        console.log("Resposta do servidor:", data);
+        alert("Dados submetidos com sucesso!");
 
-      setName('');
-      setEmail('');
-      setPhone('');
-    })
-    .catch((error) => {
-      console.error("Erro:", error);
-      alert("Houve um erro ao submeter os dados. Tente novamente.");
-    })
-
+        setName("");
+        setEmail("");
+        setPhone("");
+      })
+      .catch((error) => {
+        console.error("Erro:", error);
+        alert("Houve um erro ao submeter os dados. Tente novamente.");
+      });
   }
   return (
     <React.Fragment>

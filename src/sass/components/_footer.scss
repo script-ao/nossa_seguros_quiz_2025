@@ -9,7 +9,6 @@
   align-items: center;
 
   padding: 1rem 0.8rem;
-  
 }
 
 .ft_container {
@@ -70,7 +69,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:.7rem;
+  gap: 0.7rem;
 }
 
 .ft_badge_icons_list > li:first-child {
@@ -126,7 +125,6 @@
 /* ============= Media Queries ============= */
 
 @media (max-width: 1024px) {
-
   .ft_wrapper {
     height: unset;
     padding: 1rem 0.8rem;
@@ -139,11 +137,11 @@
   }
 
   .ft_digital_channels-container {
-    gap: .8rem;
+    gap: 0.8rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
@@ -209,15 +207,15 @@
   }
 
   .ft_digital_channels-container {
-    gap: .8rem;
+    gap: 0.8rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
-    padding: .8rem;
+    padding: 0.8rem;
     border-radius: 10rem;
 
     a {
@@ -245,7 +243,7 @@
   }
 
   .ft_icons_contact_apps {
-    padding: .8rem .9rem;
+    padding: 0.8rem 0.9rem;
     border-radius: 5rem;
   }
 
@@ -256,7 +254,7 @@
   }
 
   .ft_number_client {
-    padding: .8rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     border-radius: 2rem;
     margin-left: 1rem;
   }
@@ -267,27 +265,27 @@
 }
 
 @media (max-width: 768px) {
-   .ft_wrapper {
+  .ft_wrapper {
     height: unset;
-     padding: 1rem 0.8rem;
+    padding: 1rem 0.8rem;
   }
 
   .ft_container {
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
     justify-content: space-between;
     align-items: center;
   }
 
   .ft_digital_channels-container {
-    gap: .8rem;
+    gap: 0.8rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
-    padding: .7rem;
+    padding: 0.7rem;
     border-radius: 10rem;
 
     a {
@@ -315,7 +313,7 @@
   }
 
   .ft_icons_contact_apps {
-    padding: .3rem .4rem;
+    padding: 0.3rem 0.4rem;
     border-radius: 5rem;
   }
 
@@ -326,7 +324,7 @@
   }
 
   .ft_number_client {
-    padding: .8rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     border-radius: 2rem;
     margin-left: 1rem;
   }
@@ -336,9 +334,8 @@
   }
 }
 
-
 @media (max-width: 430px) {
-   .ft_wrapper {
+  .ft_wrapper {
     height: unset;
     padding: 1rem 0.8rem;
   }
@@ -350,15 +347,15 @@
   }
 
   .ft_digital_channels-container {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
-    padding: .6rem;
+    padding: 0.6rem;
     border-radius: 10rem;
 
     a {
@@ -386,7 +383,7 @@
   }
 
   .ft_icons_contact_apps {
-    padding: .3rem .4rem;
+    padding: 0.3rem 0.4rem;
     border-radius: 5rem;
   }
 
@@ -397,7 +394,7 @@
   }
 
   .ft_number_client {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 2rem;
     margin-left: 1rem;
   }
@@ -408,27 +405,27 @@
 }
 
 @media (max-width: 414px) {
-   .ft_wrapper {
+  .ft_wrapper {
     height: unset;
-     padding: 1rem 0.8rem;
+    padding: 1rem 0.8rem;
   }
 
   .ft_container {
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
     justify-content: space-between;
     align-items: center;
   }
 
   .ft_digital_channels-container {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
-    padding: .8rem;
+    padding: 0.8rem;
     border-radius: 10rem;
 
     a {
@@ -438,7 +435,7 @@
   }
 
   .ft_website_link-container a {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   // Contact Badge
@@ -456,7 +453,7 @@
   }
 
   .ft_icons_contact_apps {
-    padding: .3rem .4rem;
+    padding: 0.3rem 0.4rem;
     border-radius: 5rem;
   }
 
@@ -467,49 +464,48 @@
   }
 
   .ft_number_client {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 2rem;
     margin-left: 1rem;
   }
   .ft_contact_number {
     padding-top: 0.4rem;
-    font-size:  1rem;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 375px) {
-
   .ft_wrapper {
     height: unset;
     padding: 1rem 0.8rem;
   }
 
   .ft_container {
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
     justify-content: space-between;
     align-items: center;
   }
 
   .ft_digital_channels-container {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
-    padding: .6rem;
+    padding: 0.6rem;
     border-radius: 10rem;
 
     a {
-      font-size: .8rem;
+      font-size: 0.8rem;
       transform: translateY(1px);
     }
   }
 
   .ft_website_link-container a {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   // Contact Badge
@@ -527,7 +523,7 @@
   }
 
   .ft_icons_contact_apps {
-    padding: .4rem .5rem;
+    padding: 0.4rem 0.5rem;
     border-radius: 5rem;
   }
 
@@ -538,7 +534,7 @@
   }
 
   .ft_number_client {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 2rem;
     margin-left: 1rem;
   }
@@ -555,31 +551,31 @@
   }
 
   .ft_container {
-    padding: 0 .8rem;
+    padding: 0 0.8rem;
     justify-content: space-between;
     align-items: center;
   }
 
   .ft_digital_channels-container {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .ft_social_icons-list {
-    gap: .7rem;
+    gap: 0.7rem;
   }
 
   .ft_social_icon {
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 10rem;
 
     a {
-      font-size: .8rem;
+      font-size: 0.8rem;
       transform: translateY(1px);
     }
   }
 
   .ft_website_link-container a {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 
   // Contact Badge
@@ -597,7 +593,7 @@
   }
 
   .ft_icons_contact_apps {
-    padding: .3rem .4rem;
+    padding: 0.3rem 0.4rem;
     border-radius: 5rem;
   }
 
@@ -608,7 +604,7 @@
   }
 
   .ft_number_client {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 2rem;
     margin-left: 1rem;
   }

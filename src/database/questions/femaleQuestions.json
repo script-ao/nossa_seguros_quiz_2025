@@ -1,353 +1,197 @@
 {
   "character": {
     "name": "Carla",
-    "age": "27",
-    "questions": [
-      {
-        "_id": 1,
-        "question": "A Carla está a expandir o seu negócio. Que seguro o ajuda a proteger o seu escritório contra incêndios e roubos?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Multirriscos",
-            "isCorrect": true
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Vida",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "_id": 2,
-        "question": "A Carla quer proteger a sua família em caso de falecimento. Que seguro deve contratar?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro de Saúde",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Vida",
-            "isCorrect": true
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "_id": 3,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 4,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 5,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 6,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 7,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 8,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 9,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 10,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 11,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 12,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 13,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 14,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      },
-      {
-        "_id": 15,
-        "question": "A Carla vai viajar para o estrangeiro. Que seguro deve contratar para estar protegido durante a viagem?",
-        "fallback": "../../assets/images/example.jpeg",
-        "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
-        "answers": [
-          {
-            "id": 1,
-            "text": "Seguro Automóvel",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "text": "Seguro de Habitação",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "text": "Seguro de Viagem",
-            "isCorrect": true
-          }
-        ]
-      }
-    ]
-  }
+    "age": 28,
+    "occupation": "Técnica de Marketing",
+    "marital_status": "Solteira",
+    "children": 0
+  },
+  "levels": [
+    {
+      "level": 1,
+      "label": "Fácil – Situações do dia-a-dia",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Comprou um carro. Qual seguro precisa contratar?",
+          "options": [
+            { "text": "Multirriscos", "correct": false },
+            { "text": "Automóvel", "correct": true },
+            { "text": "Vida", "correct": false }
+          ],
+          "explanation": "O seguro Automóvel é uma solução que garante a protecção contra danos que possam ser causados a terceiros, oferecendo também um conjunto de coberturas que visam proteger a própria viatura.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 2,
+          "question": "Vai de férias para o exterior. Que seguro deve ter?",
+          "options": [
+            { "text": "Automóvel", "correct": false },
+            { "text": "Vida", "correct": false },
+            { "text": "Viagem", "correct": true }
+          ],
+          "explanation": "O seguro de Viagem é uma solução que garante o acesso a diversas coberturas que o protegem de riscos durante as viagens, incluindo acidentes que possam ocorrer durante o período de estadia no local de destino.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 3,
+          "question": "Quer proteger a casa onde vive sozinha. Que seguro precisa contratar?",
+          "options": [
+            { "text": "Multirrisco Habitação", "correct": true },
+            { "text": "Protecção Contra Assaltos", "correct": false },
+            { "text": "Acidentes Pessoais", "correct": false }
+          ],
+          "explanation": "O seguro Multirrisco Habitação é uma solução que garante a protecção do seu património contra danos resultantes de incêndio, inundações, tempestade, riscos eléctricos, roubo e outros.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 4,
+          "question": "Quer garantir apoio em caso de acidente doméstico, como uma queda ou queimadura.",
+          "options": [
+            { "text": "Acidentes Pessoais", "correct": true },
+            { "text": "Protecção Contra Assaltos", "correct": false },
+            { "text": "Vida", "correct": false }
+          ],
+          "explanation": "O seguro de Acidentes Pessoais, é uma solução que garante a protecção contra situações que possam pôr em causa o curso normal da vida das pessoas, seja em actividades laborais ou de lazer.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 5,
+          "question": "Quer garantir apoio à sua família no futuro.",
+          "options": [
+            { "text": "Seguro de Vida", "correct": true },
+            { "text": "Seguro de Saúde", "correct": false },
+            { "text": "Seguro Automóvel", "correct": false }
+          ],
+          "explanation": "O seguro de Vida é uma solução que garante a proteção financeira para si (em caso de invalidez ou doença grave) e para a sua família (em caso de morte), de forma a proporcionar o conforto e a estabilidade que merecem.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "label": "Médio – Situações profissionais ou familiares",
+      "questions": [
+        {
+          "id": 6,
+          "question": "Está a planear ter um filho e quer garantir acesso a cuidados médicos durante a sua gravidez. Que seguro precisa adquirir?",
+          "options": [
+            { "text": "Saúde", "correct": true },
+            { "text": "Multirriscos", "correct": false },
+            { "text": "Automóvel", "correct": false }
+          ],
+          "explanation": "O seguro de Saúde garante assistência médica durante a gestação, Por meio da cobertura de Assistência no Parto, desde exames pré-natais, parto e cuidados pós-natais. Esta cobertura está sujeita a um período de carência de 365 dias, pelo que requer algum planeamento caso se pretenda beneficiar da mesma no âmbito do seguro de Saúde.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 7,
+          "question": "Vai abrir uma clínica de estética e quer proteger-se contra danos que possa causar aos Clientes.",
+          "options": [
+            { "text": "Seguro de Acidentes de Trabalho", "correct": false },
+            { "text": "Seguro de Responsabilidade Civil", "correct": true },
+            { "text": "Seguro Vida", "correct": false }
+          ],
+          "explanation": "O seguro de Responsabilidade Civil é uma solução destinada a proteger as empresas dos danos que possam causar a terceiros, resultantes do exercício das suas actividades.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 8,
+          "question": "Pretende proteger-se dos danos por curto-circuito na sua loja. Que seguro precisa aderir?",
+          "options": [
+            { "text": "Acidentes de Trabalho", "correct": false },
+            { "text": "Multirrisco Estabelecimento", "correct": true },
+            { "text": "Multirrisco Indústria", "correct": false }
+          ],
+          "explanation": "O seguro Multirrisco Estabelecimento é uma solução que protege o património da sua empresa, contra riscos variados, que possam afectar o bom funcionamento da mesma.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 9,
+          "question": "Quer começar a preparar a sua reforma. Qual o produto ideal para investir?",
+          "options": [
+            { "text": "Fundo de Pensões", "correct": true },
+            { "text": "Seguro Automóvel", "correct": false },
+            { "text": "Seguro de Viagem", "correct": false }
+          ],
+          "explanation": "O Fundo de Pensões é uma solução de investimento a longo prazo que permite protegê-lo financeiramente, através de contribuições mensais, promovendo a manutenção da sua qualidade de vida e bem-estar no período da reforma.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 10,
+          "question": "Quer estar protegido caso um cliente sofra um acidente no seu espaço comercial. Que seguro deve ter?",
+          "options": [
+            { "text": "Seguro de Saúde", "correct": false },
+            { "text": "Seguro de Responsabilidade Civil", "correct": true },
+            { "text": "Seguro Automóvel", "correct": false }
+          ],
+          "explanation": "O seguro de Responsabilidade Civil é uma solução destinada a proteger as empresas dos danos que possam causar a terceiros, resultantes do exercício das suas actividades.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "label": "Difícil – Situações técnicas e planeamento financeiro",
+      "questions": [
+        {
+          "id": 11,
+          "question": "Quer um produto para fazer a gestão das suas poupanças longo prazo. Qual o produto ideal?",
+          "options": [
+            { "text": "Fundo de Pensões", "correct": true },
+            { "text": "Seguro de Vida", "correct": false },
+            { "text": "Seguro de Viagem", "correct": false }
+          ],
+          "explanation": "O Fundo de Pensões é uma solução de investimento a longo prazo que permite protegê-lo financeiramente, através de contribuições mensais, promovendo a manutenção da sua qualidade de vida e bem-estar no período da reforma.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 12,
+          "question": "Quer garantir o futuro financeiro dos seus filhos.",
+          "options": [
+            { "text": "Seguro de Vida", "correct": true },
+            { "text": "Seguro Automóvel", "correct": false },
+            { "text": "Seguro Empresarial", "correct": false }
+          ],
+          "explanation": "O seguro de Vida é uma solução que garante a proteção financeira para si (em caso de invalidez ou doença grave) e para a sua família (em caso de morte), de forma a proporcionar o conforto e a estabilidade que merecem.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 13,
+          "question": "Quer proteger o seu negócio e os bens no interior do espaço.",
+          "options": [
+            { "text": "Seguro Multirrisco Estabelecimento", "correct": true },
+            { "text": "Seguro Equipamentos Electrónicos", "correct": false },
+            { "text": "Seguro Multirrisco Habitação", "correct": false }
+          ],
+          "explanation": "O seguro Multirrisco Estabelecimento é uma solução que protege o património da sua empresa, contra riscos variados, que possam afectar o bom funcionamento da mesma.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        },
+        {
+          "id": 14,
+          "question": "Tem filhos pequenos e quer garantir acesso a cuidados médicos.",
+          "options": [
+            { "text": "Seguro de Saúde", "correct": true },
+            { "text": "Seguro de Vida", "correct": false },
+            { "text": "Seguro Reforma", "correct": false }
+          ],
+          "explanation": "O seguro de Saúde é uma solução que garante o acesso a uma variedade de serviços e cuidados médicos, através de uma ampla rede de clínicas e farmácias de qualidade.",
+          "video_link": "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4",
+          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+        }
+      ]
+    }
+  ]
 }

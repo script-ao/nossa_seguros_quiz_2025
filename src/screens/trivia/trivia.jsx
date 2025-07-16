@@ -20,7 +20,9 @@ function Trivia() {
   const [state, dispatch] = useContext(GameContext);
 
   const navigate = useNavigate();
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(state.currentQuestionIndex || 0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(
+    state.currentQuestionIndex || 0
+  );
   const [score, setScore] = useState(state.score || 0);
   const [questions, setQuestions] = useState(state.questions || []);
   const [currentQuestion, setCurrentQuestion] = useState(null);
@@ -33,46 +35,70 @@ function Trivia() {
     if (state.questions && state.questions.length > 0) {
       setQuestions(state.questions);
       setCurrentQuestion(state.questions[currentQuestionIndex]);
-      setTimerKey(prevKey => prevKey + 1); // Reset timer on initial load
+      setTimerKey((prevKey) => prevKey + 1); // Reset timer on initial load
       return;
     }
 
-    let characterQuestions = [];
+    let characterData = null;
 
-    if (state.character_name === "João" && 
-        questionsMale && 
-        questionsMale.character && 
-        questionsMale.character.questions) {
-      characterQuestions = questionsMale.character.questions;
-    } else if (state.character_name === "Carla" && 
-               questionsFemale && 
-               questionsFemale.character && 
-               questionsFemale.character.questions) {
-      characterQuestions = questionsFemale.character.questions;
+    if (state.character_name === "João" && questionsMale) {
+      characterData = questionsMale;
+    } else if (state.character_name === "Carla" && questionsFemale) {
+      characterData = questionsFemale;
     } else {
       // Fallback to male questions if no character selected or questions not found
-      characterQuestions = questionsMale.character.questions;
+      characterData = questionsMale;
     }
 
-    // Randomly select MAX_QUESTIONS questions
-    const shuffledQuestions = shuffleArray(characterQuestions);
-    const selectedQuestions = shuffledQuestions.slice(0, MAX_QUESTIONS);
+    // Check if the character data has levels
+    if (!characterData.levels || !Array.isArray(characterData.levels)) {
+      console.error("Character data does not have levels array");
+      return;
+    }
 
-    // Process each question to have shuffled answers
-    const processedQuestions = selectedQuestions.map(question => {
-      return {
-        ...question,
-        answers: shuffleArray(question.answers)
-      };
+    // Get questions from each level (3 questions per level)
+    const questionsFromLevels = [];
+
+    characterData.levels.forEach((level) => {
+      if (level.questions && Array.isArray(level.questions)) {
+        // Shuffle questions in this level and take 3
+        const shuffledLevelQuestions = shuffleArray(level.questions);
+        const selectedLevelQuestions = shuffledLevelQuestions.slice(0, 3);
+
+        // Process each question to have shuffled options
+        const processedLevelQuestions = selectedLevelQuestions.map(
+          (question) => {
+            return {
+              ...question,
+              // Convert options to the format expected by the AnswerButton component
+              answers: shuffleArray(
+                question.options.map((option) => ({
+                  id: Math.random().toString(36).substr(2, 9), // Generate a random ID
+                  text: option.text,
+                  isCorrect: option.correct,
+                }))
+              ),
+            };
+          }
+        );
+
+        questionsFromLevels.push(...processedLevelQuestions);
+      }
     });
 
-    setQuestions(processedQuestions);
-    setCurrentQuestion(processedQuestions[0]);
+    // Ensure we have questions
+    if (questionsFromLevels.length === 0) {
+      console.error("No questions found for the selected character");
+      return;
+    }
+
+    setQuestions(questionsFromLevels);
+    setCurrentQuestion(questionsFromLevels[0]);
 
     // Update the context
-    dispatch({ type: 'set_questions', payload: processedQuestions });
+    dispatch({ type: "set_questions", payload: questionsFromLevels });
 
-    setTimerKey(prevKey => prevKey + 1); // Reset timer on initial load
+    setTimerKey((prevKey) => prevKey + 1); // Reset timer on initial load
   }, [state.character_name, state.questions, currentQuestionIndex, dispatch]);
 
   // No need to check for checkpoint in useEffect anymore as we'll navigate directly
@@ -82,19 +108,19 @@ function Trivia() {
     if (!isCorrect) {
       // If answer is incorrect, player loses
       // Reset game state before navigating
-      dispatch({ type: 'reset_game' });
+      dispatch({ type: "reset_game" });
       navigate("/lose");
       return;
     }
 
     const newScore = score + 1;
     setScore(newScore);
-    dispatch({ type: 'update_score', payload: newScore });
+    dispatch({ type: "update_score", payload: newScore });
 
     // Check if all questions are answered
     if (currentQuestionIndex === questions.length - 1) {
       // Reset game state before navigating
-      dispatch({ type: 'reset_game' });
+      dispatch({ type: "reset_game" });
       navigate("/win");
       return;
     }
@@ -103,16 +129,16 @@ function Trivia() {
     if ((currentQuestionIndex + 1) % 3 === 0) {
       // Update question index in context before navigating
       const newIndex = currentQuestionIndex + 1;
-      dispatch({ type: 'update_question_index', payload: newIndex });
+      dispatch({ type: "update_question_index", payload: newIndex });
       navigate("/checkpoint");
     } else {
       // Move to next question
       const newIndex = currentQuestionIndex + 1;
       setCurrentQuestionIndex(newIndex);
       setCurrentQuestion(questions[newIndex]);
-      dispatch({ type: 'update_question_index', payload: newIndex });
+      dispatch({ type: "update_question_index", payload: newIndex });
       // Reset timer for the new question
-      setTimerKey(prevKey => prevKey + 1);
+      setTimerKey((prevKey) => prevKey + 1);
     }
   };
 
@@ -121,7 +147,11 @@ function Trivia() {
     // If time is up, player loses
     // Reset game state before navigating
 
-    dispatch({ type: 'reset_game' });
+
+   
+
+    dispatch({ type: "reset_game" });
+
     navigate("/lose");
   };
 
@@ -140,9 +170,9 @@ function Trivia() {
               <Header />
             </div>
             <div className="tr_app_logo">
-              <Display 
+              <Display
                 key={timerKey} // Add key to reset timer
-                onTimeUp={handleTimeUp} 
+                onTimeUp={handleTimeUp}
                 videoLink={currentQuestion.video_link}
                 fallbackImage={currentQuestion.fallback}
               />

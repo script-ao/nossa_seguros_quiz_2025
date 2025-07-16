@@ -14,7 +14,10 @@ function Display({ onTimeUp, videoLink, fallbackImage }) {
         <div className="di_container">
           <video autoPlay loop poster={fallbackImage || defaultFallback}>
             <source
-              src={videoLink || "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4"}
+              src={
+                videoLink ||
+                "https://res.cloudinary.com/dzqwgybgx/video/upload/v1751633940/Clients/Nossa%20Seguros/Videos/2025/Jul/Jo%C3%A3o/envato_video_gen_Jul_01_2025_16_19_14_ypilo1.mp4"
+              }
               type="video/mp4"
             />
           </video>
