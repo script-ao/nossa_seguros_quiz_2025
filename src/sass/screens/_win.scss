@@ -96,8 +96,7 @@
 /* ============= Media Queries ============= */
 
 @media (max-width: 1024px) {
-  .wi_container {
-  }
+ 
 
   .wi_image_container {
     gap: 2rem;
@@ -114,25 +113,15 @@
   }
 
   .wi_title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
-  .wi_description-content {
+   .wi_description-content {
+    gap: 2rem;
+    
     span {
-      font-size: 2.5rem;
-      line-height: 3.3rem;
-    }
-
-    .wi_description-content {
-      width: 100%;
-
-      span {
-        font-size: 2.5rem;
-
-        &:first-child {
-          margin-bottom: 2rem;
-        }
-      }
+      line-height:4rem;
+      font-size: 3rem;
     }
   }
 }
@@ -161,21 +150,11 @@
   }
 
   .wi_description-content {
+    gap: 2rem;
+    
     span {
-      font-size: 2.2rem;
-      line-height: 3.3rem;
-    }
-
-    .wi_description-content {
-      width: 100%;
-
-      span {
-        font-size: 2.5rem;
-
-        &:first-child {
-          margin-bottom: 2rem;
-        }
-      }
+      line-height:3.8rem;
+      font-size: 2.6rem;
     }
   }
 }
@@ -200,25 +179,15 @@
   }
 
   .wi_title {
-    font-size: 3rem;
+    font-size: 3.3rem;
   }
 
   .wi_description-content {
+    gap: 1.8rem;
+    
     span {
-      font-size: 2.2rem;
-      line-height: 3.3rem;
-    }
-
-    .wi_description-content {
-      width: 100%;
-
-      span {
-        font-size: 2.5rem;
-
-        &:first-child {
-          margin-bottom: 2rem;
-        }
-      }
+      line-height:3.6rem;
+      font-size: 2.6rem;
     }
   }
 }
@@ -243,26 +212,14 @@
   }
 
   .wi_title {
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
 
   .wi_description-content {
+     gap: 1.8rem;
     span {
-      font-size: 1.2rem;
-
-      line-height: 2rem;
-    }
-
-    .wi_description-content {
-      width: 100%;
-
-      span {
-        font-size: 1.5rem;
-
-        &:first-child {
-          margin-bottom: 2rem;
-        }
-      }
+      line-height:2.6rem;
+      font-size: 2rem;
     }
   }
 }
@@ -287,31 +244,23 @@
   }
 
   .wi_title {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   .wi_description-content {
+    gap: 1.5rem;
     span {
-      font-size: 1.2rem;
+      line-height:2.4rem;
+      font-size: 1.8rem;
     }
 
-    .wi_description-content {
-      width: 100%;
-
-      span {
-        font-size: 1.5rem;
-
-        &:first-child {
-          margin-bottom: 2rem;
-        }
-      }
-    }
+    
   }
 }
 
 @media (max-width: 375px) {
   .wi_container {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .wi_image_container {
@@ -333,23 +282,12 @@
   }
 
   .wi_description-content {
-    width: 80%;
+    
+    gap: 2rem;
 
     span {
-      font-size: 1.2rem;
       line-height: 2.2rem;
-    }
-
-    .wi_description-content {
-      width: 100%;
-
-      span {
-        font-size: 1.5rem;
-
-        &:first-child {
-          margin-bottom: 2rem;
-        }
-      }
+      font-size: 1.5rem;
     }
   }
 }
@@ -364,7 +302,7 @@
 
     div {
       img {
-        width: 15rem;
+        width: 16rem;
       }
     }
   }
@@ -378,22 +316,46 @@
   }
 
   .wi_description-content {
-    width: 90%;
+     gap: .8rem;
 
     span {
       font-size: 1.2rem;
+      line-height: 1.8rem;
     }
 
-    .wi_description-content {
-      width: 100%;
+  }
+}
 
-      span {
-        font-size: 1.5rem;
+@media (max-width: 320px) and (max-height:480px) {
+  .wi_container {
+    gap: 1rem;
+  }
 
-        &:first-child {
-          margin-bottom: 2rem;
-        }
+  .wi_image_container {
+    gap: 1rem;
+
+    div {
+      img {
+        width: 15rem;
       }
     }
+  }
+
+  .wi_description-container {
+    gap: 1.4rem;
+  }
+
+  .wi_title {
+    font-size: 1.5rem;
+  }
+
+  .wi_description-content {
+     gap: .8rem;
+
+    span {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+
   }
 }
