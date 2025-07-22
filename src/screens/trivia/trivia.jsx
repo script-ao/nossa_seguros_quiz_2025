@@ -28,6 +28,7 @@ function Trivia() {
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [timerKey, setTimerKey] = useState(0); // Key to reset timer
   const MAX_QUESTIONS = 9;
+  const [answerState, setAnswerState] = useState({ selectedId: null, disabled: false });
 
   // Initialize questions based on selected character
   useEffect(() => {
@@ -105,41 +106,37 @@ function Trivia() {
 
   // Handle answer selection
   const handleAnswerClick = (id, isCorrect) => {
-    if (!isCorrect) {
-      // If answer is incorrect, player loses
-      // Reset game state before navigating
-      dispatch({ type: "reset_game" });
-      navigate("/lose");
-      return;
-    }
+    setAnswerState({ selectedId: id, disabled: true });
+    setTimeout(() => {
+      if (!isCorrect) {
+        dispatch({ type: "reset_game" });
+        navigate("/lose");
+        return;
+      }
 
-    const newScore = score + 1;
-    setScore(newScore);
-    dispatch({ type: "update_score", payload: newScore });
+      const newScore = score + 1;
+      setScore(newScore);
+      dispatch({ type: "update_score", payload: newScore });
 
-    // Check if all questions are answered
-    if (currentQuestionIndex === questions.length - 1) {
-      // Reset game state before navigating
-      dispatch({ type: "reset_game" });
-      navigate("/win");
-      return;
-    }
+      if (currentQuestionIndex === questions.length - 1) {
+        dispatch({ type: "reset_game" });
+        navigate("/win");
+        return;
+      }
 
-    // Check if we need to navigate to checkpoint
-    if ((currentQuestionIndex + 1) % 3 === 0) {
-      // Update question index in context before navigating
-      const newIndex = currentQuestionIndex + 1;
-      dispatch({ type: "update_question_index", payload: newIndex });
-      navigate("/checkpoint");
-    } else {
-      // Move to next question
-      const newIndex = currentQuestionIndex + 1;
-      setCurrentQuestionIndex(newIndex);
-      setCurrentQuestion(questions[newIndex]);
-      dispatch({ type: "update_question_index", payload: newIndex });
-      // Reset timer for the new question
-      setTimerKey((prevKey) => prevKey + 1);
-    }
+      if ((currentQuestionIndex + 1) % 3 === 0) {
+        const newIndex = currentQuestionIndex + 1;
+        dispatch({ type: "update_question_index", payload: newIndex });
+        navigate("/checkpoint");
+      } else {
+        const newIndex = currentQuestionIndex + 1;
+        setCurrentQuestionIndex(newIndex);
+        setCurrentQuestion(questions[newIndex]);
+        dispatch({ type: "update_question_index", payload: newIndex });
+        setTimerKey((prevKey) => prevKey + 1);
+      }
+      setAnswerState({ selectedId: null, disabled: false });
+    }, 1200); // tempo total da animação
   };
 
   // Handle time up
@@ -189,6 +186,8 @@ function Trivia() {
                     text={answer.text}
                     isCorrect={answer.isCorrect}
                     onClick={handleAnswerClick}
+                    disabled={answerState.disabled}
+                    selected={answerState.selectedId === answer.id}
                   />
                 ))}
               </div>

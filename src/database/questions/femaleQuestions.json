@@ -21,7 +21,7 @@
           ],
           "explanation": "O seguro Automóvel é uma solução que garante a protecção contra danos que possam ser causados a terceiros, oferecendo também um conjunto de coberturas que visam proteger a própria viatura.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131544/Nossa_Seguros_Pergunta_Carla_1_-_01_og8dfy.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/1.jpg"
         },
         {
           "id": 2,
@@ -33,7 +33,7 @@
           ],
           "explanation": "O seguro de Viagem é uma solução que garante o acesso a diversas coberturas que o protegem de riscos durante as viagens, incluindo acidentes que possam ocorrer durante o período de estadia no local de destino.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131550/Nossa_Seguros_Pergunta_Carla_2_-_01_q04m2e.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/2.jpg"
         },
         {
           "id": 3,
@@ -45,7 +45,7 @@
           ],
           "explanation": "O seguro Multirrisco Habitação é uma solução que garante a protecção do seu património contra danos resultantes de incêndio, inundações, tempestade, riscos eléctricos, roubo e outros.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131553/Nossa_Seguros_Pergunta_Carla_3_-_01_salw9n.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/3.jpg"
         },
         {
           "id": 4,
@@ -57,7 +57,7 @@
           ],
           "explanation": "O seguro de Acidentes Pessoais, é uma solução que garante a protecção contra situações que possam pôr em causa o curso normal da vida das pessoas, seja em actividades laborais ou de lazer.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131546/Nossa_Seguros_Pergunta_Carla_4_-_01_do7xpn.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/4.jpg"
         },
         {
           "id": 5,
@@ -69,7 +69,7 @@
           ],
           "explanation": "O seguro de Vida é uma solução que garante a proteção financeira para si (em caso de invalidez ou doença grave) e para a sua família (em caso de morte), de forma a proporcionar o conforto e a estabilidade que merecem.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131542/Nossa_Seguros_Pergunta_Carla_5_-_01_wtm99t.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/5.jpg"
         }
       ]
     },
@@ -87,7 +87,7 @@
           ],
           "explanation": "O seguro de Saúde garante assistência médica durante a gestação, Por meio da cobertura de Assistência no Parto, desde exames pré-natais, parto e cuidados pós-natais. Esta cobertura está sujeita a um período de carência de 365 dias, pelo que requer algum planeamento caso se pretenda beneficiar da mesma no âmbito do seguro de Saúde.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131547/WhatsApp_Video_2025-07-21_at_10.23.13_AM_nnnwyx.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/6.jpg"
         },
         {
           "id": 7,
@@ -99,7 +99,7 @@
           ],
           "explanation": "O seguro de Responsabilidade Civil é uma solução destinada a proteger as empresas dos danos que possam causar a terceiros, resultantes do exercício das suas actividades.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131555/Nossa_Seguros_Pergunta_Carla_7_-_01_ymegqf.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/7.jpg"
         },
         {
           "id": 8,
@@ -111,7 +111,7 @@
           ],
           "explanation": "O seguro Multirrisco Estabelecimento é uma solução que protege o património da sua empresa, contra riscos variados, que possam afectar o bom funcionamento da mesma.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131563/Nossa_Seguros_Pergunta_Carla_8_-_01_jlkyi8.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/8.jpg"
         },
         {
           "id": 9,
@@ -123,7 +123,7 @@
           ],
           "explanation": "O Fundo de Pensões é uma solução de investimento a longo prazo que permite protegê-lo financeiramente, através de contribuições mensais, promovendo a manutenção da sua qualidade de vida e bem-estar no período da reforma.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131541/Nossa_Seguros_Pergunta_Carla_9_-_01_ikyn4q.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/9.jpg"
         },
         {
           "id": 10,
@@ -135,7 +135,7 @@
           ],
           "explanation": "O seguro de Responsabilidade Civil é uma solução destinada a proteger as empresas dos danos que possam causar a terceiros, resultantes do exercício das suas actividades.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131560/Nossa_Seguros_Pergunta_Carla_10_-_01_jhdvlm.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/10.jpg"
         }
       ]
     },
@@ -153,7 +153,7 @@
           ],
           "explanation": "O Fundo de Pensões é uma solução de investimento a longo prazo que permite protegê-lo financeiramente, através de contribuições mensais, promovendo a manutenção da sua qualidade de vida e bem-estar no período da reforma.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131557/Nossa_Seguros_Pergunta_Carla_11_-_01_qww16k.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/11.jpg"
         },
         {
           "id": 12,
@@ -165,7 +165,7 @@
           ],
           "explanation": "O seguro de Vida é uma solução que garante a proteção financeira para si (em caso de invalidez ou doença grave) e para a sua família (em caso de morte), de forma a proporcionar o conforto e a estabilidade que merecem.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131551/Nossa_Seguros_Pergunta_Carla_12_-_01_esldj6.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/12.jpg"
         },
         {
           "id": 13,
@@ -177,7 +177,7 @@
           ],
           "explanation": "O seguro Multirrisco Estabelecimento é uma solução que protege o património da sua empresa, contra riscos variados, que possam afectar o bom funcionamento da mesma.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131554/Nossa_Seguros_Pergunta_Carla_13_-_01_osbppy.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/13.jpg"
         },
         {
           "id": 14,
@@ -189,7 +189,7 @@
           ],
           "explanation": "O seguro de Saúde é uma solução que garante o acesso a uma variedade de serviços e cuidados médicos, através de uma ampla rede de clínicas e farmácias de qualidade.",
           "video_link": "https://res.cloudinary.com/dxh5j773r/video/upload/v1753131543/Nossa_Seguros_Pergunta_Carla_14_-_01_azedjh.mp4",
-          "fallback": "../../assets/images/characters/character_1/joao_wide.png"
+          "fallback": "../../assets/images/characters/character_2/fallback/14.jpg"
         }
       ]
     }
