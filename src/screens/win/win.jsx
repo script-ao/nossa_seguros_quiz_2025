@@ -17,7 +17,8 @@ function Win() {
   }, [navigate]);
 
   function handleClick() {
-    navigate("/register");
+    // Reset game and go to start
+    navigate("/");
   }
 
   return (
@@ -34,23 +35,16 @@ function Win() {
             </div>
           </div>
           <div className="wi_description-container">
-            <span className="wi_title">Parabéns!</span>
+            <span className="wi_title">Conseguiu!</span>
             <div className="wi_description-content">
               <span>
-                <p>Você mostrou que está bem</p>
-                <p>informado e preparado para</p>
-                <p>garantir a sua tranquilidade e a</p>
-                <p>da sua família.</p>
-              </span>
-              <span>
-                <p>Na Nossa Seguros, a sua</p>
-                <p>segurança é a nossa prioridade.</p>
+                A sua dedicação e conhecimento trouxeram-no até aqui e isso diz muito sobre si. Parabéns, receba o seu prémio!
               </span>
             </div>
           </div>
           <div className="wi_btn-container">
             <Button
-              text="receber prémio"
+              text="Jogar novamente"
               className="btn btn_color-main "
               onClick={handleClick}
             />
